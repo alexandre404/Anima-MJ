@@ -12,7 +12,7 @@ namespace Anima_MJ
 {
     public partial class FrmNewPerso1 : Form
     {
-
+        //
         Outils.Perso perso = new Outils.Perso();
 
         public FrmNewPerso1()

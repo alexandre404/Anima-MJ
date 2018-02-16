@@ -6,12 +6,14 @@ namespace Anima_MJ
 {
   public class Donnees
     {
+        //Création de l'objet entitys, il est dans une classe isolé
+        //car cette ligne rendait inactifs tous code présent dans sa classe.
         public static Animadb Db = new Animadb();
     }
 
     public class Data
     {
-       
+       // Variables globales du programmes
         //A supprimer plus tard jusqu'à ...
         public static Boolean level1 = true;
         public static int Pf = 500;
@@ -27,9 +29,11 @@ namespace Anima_MJ
 
     public class Outils
     {
+        //level0 est une fonction qui détermine l'xp et les pf de base lors de la création de perso
+        //les liens logiciel avec les tables de sqlites , n'éatant pas finni cette fonction risque d'évoluer souvent^^
         public static int Level0()
         {
-            //à compléter ultérieurement !!!
+            //à compléter ultérieurement !!! (il faut désactiver les bonus de base de classe dans le cas level1 = false
             int Xp;
             if (Data.level1 == false)
             {
@@ -43,12 +47,16 @@ namespace Anima_MJ
             }
             return Xp;
         }
+        //Calcul Hauteur est une fonction générique qui renvois la hauteur selon les caractèrisques de force
+        // et de constitution, instancie les valeur de poids min-max et de taille min-max
+        //Il n'y a pas de controle sur le respect de valeurs ntré pour le poids et l'hauteur
+
         public static int CalculHauteur(int force, int con)
         {
-            
+            //utliser uniquement dans FrmNewPerso1 cette fonction a vocation à aller ailleur
             int hauteur;
             hauteur = force + con;
-            //A mettre un jour dans une table^^
+            //A voir si on peut faire mieux qu'un switch
             switch (hauteur) // calcule de la plage de poids et taille 
             {
                 case ( 2):
@@ -178,11 +186,7 @@ namespace Anima_MJ
                     Data.PoidsMax = 880000;
                     break;
             }
-               
-        
-               
-        
-
+ 
             return hauteur;
         }
 
@@ -250,6 +254,9 @@ namespace Anima_MJ
             }
             return code;
         }
+
+        //superbe fonction générique de génération/modification d'xml avec choix de l'objet et du nom de l'xml,
+        //le nom devra toujours être de la forme "Nom.xml"
         public static void Sauvegarde<T>(T p, string nomFichier)
         {
             XmlSerializer lizeer = new XmlSerializer(typeof(T));
@@ -259,6 +266,8 @@ namespace Anima_MJ
                 
             }
         }
+        //superbe fonction générique d'utilisation d'xml selon un type d'objet
+        //T n'est donc pas un type pour l'appel il faudra : Lecture<NomObjet> (nomFichier)
         public static T Lecture<T>(string nomFichier)
         {
             XmlSerializer lizeer = new XmlSerializer(typeof(T));
@@ -266,8 +275,12 @@ namespace Anima_MJ
             T p= (T)lizeer.Deserialize(tx) ;
             return p;
         }
+
+        //Objet globale utiliser pour le stockage en xml
+
         public class Perso
         {
+            
             private int id = 1;
             private string joueur;
             private string nom;
