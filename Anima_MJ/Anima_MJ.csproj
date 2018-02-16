@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C552170-D623-4F30-AF9B-7CC21C779FDB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Anima_MJ</RootNamespace>
+    <AssemblyName>Anima_MJ</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>r2_dragon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Anima_data.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Anima_data.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Anima_data.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Anima_data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Anima_data.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Art_martiaux.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Classe.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="classe_bonus.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="classe_cout.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="competence.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Donnees.cs" />
+    <Compile Include="Dons.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fiche_Perso.cs" />
+    <Compile Include="FrmBegin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBegin.Designer.cs">
+      <DependentUpon>FrmBegin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewCarac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewCarac.Designer.cs">
+      <DependentUpon>FrmNewCarac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewMenu.Designer.cs">
+      <DependentUpon>FrmNewMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewPerso2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewPerso2.Designer.cs">
+      <DependentUpon>FrmNewPerso2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="histo_charac.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Joueur.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="joueur_actu_.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="joueur_bonus.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="joueur_cout.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="joueur_depense.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="joueur_temp_.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Level.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewPerso1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewPerso1.Designer.cs">
+      <DependentUpon>FrmNewPerso1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mecanique.cs" />
+    <Compile Include="module_darme.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="module_joueur.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pouvoir_joueur.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pouvoir_ki.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="temp_charac.cs">
+      <DependentUpon>Anima_data.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmBegin.resx">
+      <DependentUpon>FrmBegin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewCarac.resx">
+      <DependentUpon>FrmNewCarac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewMenu.resx">
+      <DependentUpon>FrmNewMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewPerso2.resx">
+      <DependentUpon>FrmNewPerso2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewPerso1.resx">
+      <DependentUpon>FrmNewPerso1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="Anima_data.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Anima_data.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Anima_data.edmx.diagram">
+      <DependentUpon>Anima_data.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fenetre_fiche2.png" />
+    <None Include="anima__the_nameless_by_wen_m-d5r7a4c.jpg" />
+    <None Include="fen2bis.png" />
+    <None Include="fen3.png" />
+    <None Include="fen4.png" />
+    <Content Include="Anima_data.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Anima_data.Context.cs</LastGenOutput>
+      <DependentUpon>Anima_data.edmx</DependentUpon>
+    </Content>
+    <Content Include="Anima_data.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Anima_data.edmx</DependentUpon>
+      <LastGenOutput>Anima_data.cs</LastGenOutput>
+    </Content>
+    <Content Include="r2_dragon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
