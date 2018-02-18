@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Database" Label="Anima_joueur.db" Category="Database" Group="Expanded" />
+    <Node Id="Art_martiaux" Label="Art_martiaux" Category="Table" Group="Collapsed" />
+    <Node Id="Art_martiaux_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="Art_martiaux_Nom" Label="Nom" Category="Field" Description="text" />
+    <Node Id="Classe" Label="Classe" Category="Table" Group="Collapsed" />
+    <Node Id="Classe_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="Classe_Nom" Label="Nom" Category="Field" Description="text" />
+    <Node Id="classe_bonus" Label="classe_bonus" Category="Table" Group="Collapsed" />
+    <Node Id="classe_bonus_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="classe_bonus_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="classe_bonus_pv" Label="pv" Category="Field" Description="int" />
+    <Node Id="classe_bonus_initiative" Label="initiative" Category="Field" Description="int" />
+    <Node Id="classe_bonus_di" Label="di" Category="Field" Description="int" />
+    <Node Id="classe_bonus_ppp" Label="ppp" Category="Field" Description="numeric(53,0)" />
+    <Node Id="classe_bonus_charac" Label="charac" Category="Field" Description="numeric(53,0)" />
+    <Node Id="classe_bonus_attaque" Label="attaque" Category="Field" Description="int" />
+    <Node Id="classe_bonus_parade" Label="parade" Category="Field" Description="int" />
+    <Node Id="classe_bonus_esquive" Label="esquive" Category="Field" Description="int" />
+    <Node Id="classe_bonus_port_darmure" Label="port_darmure" Category="Field" Description="int" />
+    <Node Id="classe_bonus_convoquer" Label="convoquer" Category="Field" Description="int" />
+    <Node Id="classe_bonus_dominer" Label="dominer" Category="Field" Description="int" />
+    <Node Id="classe_bonus_lier" Label="lier" Category="Field" Description="int" />
+    <Node Id="classe_bonus_revoquer" Label="revoquer" Category="Field" Description="int" />
+    <Node Id="classe_bonus_zeon" Label="zeon" Category="Field" Description="int" />
+    <Node Id="classe_bonus_comp_nat_classe" Label="comp_nat_classe" Category="Field" Description="int" />
+    <Node Id="classe_bonus_acrobatie" Label="acrobatie" Category="Field" Description="int" />
+    <Node Id="classe_bonus_athletisme" Label="athletisme" Category="Field" Description="int" />
+    <Node Id="classe_bonus_equitation" Label="equitation" Category="Field" Description="int" />
+    <Node Id="classe_bonus_escalade" Label="escalade" Category="Field" Description="int" />
+    <Node Id="classe_bonus_natation" Label="natation" Category="Field" Description="int" />
+    <Node Id="classe_bonus_saut" Label="saut" Category="Field" Description="int" />
+    <Node Id="classe_bonus_impassibilite" Label="impassibilite" Category="Field" Description="int" />
+    <Node Id="classe_bonus_prouesse" Label="prouesse" Category="Field" Description="int" />
+    <Node Id="classe_bonus_resistance" Label="resistance" Category="Field" Description="int" />
+    <Node Id="classe_bonus_observation" Label="observation" Category="Field" Description="int" />
+    <Node Id="classe_bonus_pistage" Label="pistage" Category="Field" Description="int" />
+    <Node Id="classe_bonus_vigilance" Label="vigilance" Category="Field" Description="int" />
+    <Node Id="classe_bonus_animaux" Label="animaux" Category="Field" Description="int" />
+    <Node Id="classe_bonus_estimation" Label="estimation" Category="Field" Description="int" />
+    <Node Id="classe_bonus_evaluation_magique" Label="evaluation_magique" Category="Field" Description="int" />
+    <Node Id="classe_bonus_herboristerie" Label="herboristerie" Category="Field" Description="int" />
+    <Node Id="classe_bonus_histoire" Label="histoire" Category="Field" Description="int" />
+    <Node Id="classe_bonus_medecine" Label="medecine" Category="Field" Description="int" />
+    <Node Id="classe_bonus_memorisation" Label="memorisation" Category="Field" Description="int" />
+    <Node Id="classe_bonus_navigation" Label="navigation" Category="Field" Description="int" />
+    <Node Id="classe_bonus_occultisme" Label="occultisme" Category="Field" Description="int" />
+    <Node Id="classe_bonus_science" Label="science" Category="Field" Description="int" />
+    <Node Id="classe_bonus_loi" Label="loi" Category="Field" Description="int" />
+    <Node Id="classe_bonus_tactique" Label="tactique" Category="Field" Description="int" />
+    <Node Id="classe_bonus_commandement" Label="commandement" Category="Field" Description="int" />
+    <Node Id="classe_bonus_intimidation" Label="intimidation" Category="Field" Description="int" />
+    <Node Id="classe_bonus_persuasion" Label="persuasion" Category="Field" Description="int" />
+    <Node Id="classe_bonus_style" Label="style" Category="Field" Description="int" />
+    <Node Id="classe_bonus_commerce" Label="commerce" Category="Field" Description="int" />
+    <Node Id="classe_bonus_conn_rue" Label="conn_rue" Category="Field" Description="int" />
+    <Node Id="classe_bonus_etiquette" Label="etiquette" Category="Field" Description="int" />
+    <Node Id="classe_bonus_camouflage" Label="camouflage" Category="Field" Description="int" />
+    <Node Id="classe_bonus_crochetage" Label="crochetage" Category="Field" Description="int" />
+    <Node Id="classe_bonus_deguisement" Label="deguisement" Category="Field" Description="int" />
+    <Node Id="classe_bonus_discretion" Label="discretion" Category="Field" Description="int" />
+    <Node Id="classe_bonus_larcin" Label="larcin" Category="Field" Description="int" />
+    <Node Id="classe_bonus_pieges" Label="pieges" Category="Field" Description="int" />
+    <Node Id="classe_bonus_poison" Label="poison" Category="Field" Description="int" />
+    <Node Id="classe_bonus_art" Label="art" Category="Field" Description="int" />
+    <Node Id="classe_bonus_danse" Label="danse" Category="Field" Description="int" />
+    <Node Id="classe_bonus_forge" Label="forge" Category="Field" Description="int" />
+    <Node Id="classe_bonus_habilete" Label="habilete" Category="Field" Description="int" />
+    <Node Id="classe_bonus_musique" Label="musique" Category="Field" Description="int" />
+    <Node Id="classe_bonus_orfevrerie" Label="orfevrerie" Category="Field" Description="int" />
+    <Node Id="classe_bonus_confection" Label="confection" Category="Field" Description="int" />
+    <Node Id="classe_bonus_creation_mario" Label="creation_mario" Category="Field" Description="int" />
+    <Node Id="classe_bonus_runes" Label="runes" Category="Field" Description="int" />
+    <Node Id="classe_bonus_alchimie" Label="alchimie" Category="Field" Description="int" />
+    <Node Id="classe_bonus_animisme" Label="animisme" Category="Field" Description="int" />
+    <Node Id="classe_bonus_rituel_calligraphie" Label="rituel_calligraphie" Category="Field" Description="int" />
+    <Node Id="classe_cout" Label="classe_cout" Category="Table" Group="Collapsed" />
+    <Node Id="classe_cout_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="classe_cout_multi_pv" Label="multi_pv" Category="Field" Description="int" />
+    <Node Id="classe_cout_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="classe_cout_attaque" Label="attaque" Category="Field" Description="int" />
+    <Node Id="classe_cout_parade" Label="parade" Category="Field" Description="int" />
+    <Node Id="classe_cout_esquive" Label="esquive" Category="Field" Description="int" />
+    <Node Id="classe_cout_port_darmure" Label="port_darmure" Category="Field" Description="int" />
+    <Node Id="classe_cout_di" Label="di" Category="Field" Description="int" />
+    <Node Id="classe_cout_ki" Label="ki" Category="Field" Description="int" />
+    <Node Id="classe_cout_accumulation_ki" Label="accumulation_ki" Category="Field" Description="int" />
+    <Node Id="classe_cout_zeon" Label="zeon" Category="Field" Description="int" />
+    <Node Id="classe_cout_multi_amr" Label="multi_amr" Category="Field" Description="int" />
+    <Node Id="classe_cout_projection_magique" Label="projection_magique" Category="Field" Description="int" />
+    <Node Id="classe_cout_convoquer" Label="convoquer" Category="Field" Description="int" />
+    <Node Id="classe_cout_dominer" Label="dominer" Category="Field" Description="int" />
+    <Node Id="classe_cout_lier" Label="lier" Category="Field" Description="int" />
+    <Node Id="classe_cout_revoquer" Label="revoquer" Category="Field" Description="int" />
+    <Node Id="classe_cout_ppp" Label="ppp" Category="Field" Description="int" />
+    <Node Id="classe_cout_projection_psychique" Label="projection_psychique" Category="Field" Description="int" />
+    <Node Id="classe_cout_voie_magique" Label="voie_magique" Category="Field" Description="int" />
+    <Node Id="classe_cout_multi_zeon_regen" Label="multi_zeon_regen" Category="Field" Description="int" />
+    <Node Id="classe_cout_acrobatie" Label="acrobatie" Category="Field" Description="int" />
+    <Node Id="classe_cout_athletisme" Label="athletisme" Category="Field" Description="int" />
+    <Node Id="classe_cout_equitation" Label="equitation" Category="Field" Description="int" />
+    <Node Id="classe_cout_escalade" Label="escalade" Category="Field" Description="int" />
+    <Node Id="classe_cout_natation" Label="natation" Category="Field" Description="int" />
+    <Node Id="classe_cout_saut" Label="saut" Category="Field" Description="int" />
+    <Node Id="classe_cout_impassibilite" Label="impassibilite" Category="Field" Description="int" />
+    <Node Id="classe_cout_prouesse" Label="prouesse" Category="Field" Description="int" />
+    <Node Id="classe_cout_resistance" Label="resistance" Category="Field" Description="int" />
+    <Node Id="classe_cout_observation" Label="observation" Category="Field" Description="int" />
+    <Node Id="classe_cout_pistage" Label="pistage" Category="Field" Description="int" />
+    <Node Id="classe_cout_vigilance" Label="vigilance" Category="Field" Description="int" />
+    <Node Id="classe_cout_animaux" Label="animaux" Category="Field" Description="int" />
+    <Node Id="classe_cout_estimation" Label="estimation" Category="Field" Description="int" />
+    <Node Id="classe_cout_evaluation_magique" Label="evaluation_magique" Category="Field" Description="int" />
+    <Node Id="classe_cout_herboristerie" Label="herboristerie" Category="Field" Description="int" />
+    <Node Id="classe_cout_histoire" Label="histoire" Category="Field" Description="int" />
+    <Node Id="classe_cout_medecine" Label="medecine" Category="Field" Description="int" />
+    <Node Id="classe_cout_memorisation" Label="memorisation" Category="Field" Description="int" />
+    <Node Id="classe_cout_navigation" Label="navigation" Category="Field" Description="int" />
+    <Node Id="classe_cout_occultisme" Label="occultisme" Category="Field" Description="int" />
+    <Node Id="classe_cout_science" Label="science" Category="Field" Description="int" />
+    <Node Id="classe_cout_loi" Label="loi" Category="Field" Description="int" />
+    <Node Id="classe_cout_tactique" Label="tactique" Category="Field" Description="int" />
+    <Node Id="classe_cout_commandement" Label="commandement" Category="Field" Description="int" />
+    <Node Id="classe_cout_intimidation" Label="intimidation" Category="Field" Description="int" />
+    <Node Id="classe_cout_persuasion" Label="persuasion" Category="Field" Description="int" />
+    <Node Id="classe_cout_style" Label="style" Category="Field" Description="int" />
+    <Node Id="classe_cout_commerce" Label="commerce" Category="Field" Description="int" />
+    <Node Id="classe_cout_conn_rue" Label="conn_rue" Category="Field" Description="int" />
+    <Node Id="classe_cout_etiquette" Label="etiquette" Category="Field" Description="int" />
+    <Node Id="classe_cout_camouflage" Label="camouflage" Category="Field" Description="int" />
+    <Node Id="classe_cout_crochetage" Label="crochetage" Category="Field" Description="int" />
+    <Node Id="classe_cout_deguisement" Label="deguisement" Category="Field" Description="int" />
+    <Node Id="classe_cout_discretion" Label="discretion" Category="Field" Description="int" />
+    <Node Id="classe_cout_larcin" Label="larcin" Category="Field" Description="int" />
+    <Node Id="classe_cout_pieges" Label="pieges" Category="Field" Description="int" />
+    <Node Id="classe_cout_poison" Label="poison" Category="Field" Description="int" />
+    <Node Id="classe_cout_art" Label="art" Category="Field" Description="int" />
+    <Node Id="classe_cout_danse" Label="danse" Category="Field" Description="int" />
+    <Node Id="classe_cout_forge" Label="forge" Category="Field" Description="int" />
+    <Node Id="classe_cout_habilete" Label="habilete" Category="Field" Description="int" />
+    <Node Id="classe_cout_musique" Label="musique" Category="Field" Description="int" />
+    <Node Id="classe_cout_orfevrerie" Label="orfevrerie" Category="Field" Description="int" />
+    <Node Id="classe_cout_confection" Label="confection" Category="Field" Description="int" />
+    <Node Id="classe_cout_creation_mario" Label="creation_mario" Category="Field" Description="int" />
+    <Node Id="classe_cout_runes" Label="runes" Category="Field" Description="int" />
+    <Node Id="classe_cout_alchimie" Label="alchimie" Category="Field" Description="int" />
+    <Node Id="classe_cout_animisme" Label="animisme" Category="Field" Description="int" />
+    <Node Id="classe_cout_rituel_calligraphie" Label="rituel_calligraphie" Category="Field" Description="int" />
+    <Node Id="competence" Label="competence" Category="Table" Group="Collapsed" />
+    <Node Id="competence_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="competence_nom" Label="nom" Category="Field" Description="text" />
+    <Node Id="competence_type" Label="type" Category="Field" Description="text" />
+    <Node Id="competence_description" Label="description" Category="Field" Description="text" />
+    <Node Id="Dons" Label="Dons" Category="Table" Group="Collapsed" />
+    <Node Id="Dons_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="Dons_Nom" Label="Nom" Category="Field" Description="text" />
+    <Node Id="Dons_effet" Label="effet" Category="Field" Description="text" />
+    <Node Id="Dons_cout" Label="cout" Category="Field" Description="int" />
+    <Node Id="Dons_nombre" Label="nombre" Category="Field" Description="int" />
+    <Node Id="Dons_droit_daccees" Label="droit_daccees" Category="Field" Description="int" />
+    <Node Id="Dons_famille" Label="famille" Category="Field" Description="text" />
+    <Node Id="histo_charac" Label="histo_charac" Category="Table" Group="Collapsed" />
+    <Node Id="histo_charac_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="histo_charac_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="histo_charac_id_niveau" Label="id_niveau" Category="Field" Description="int" />
+    <Node Id="histo_charac_Forca" Label="Forca" Category="Field" Description="int" />
+    <Node Id="histo_charac_agi" Label="agi" Category="Field" Description="int" />
+    <Node Id="histo_charac_dex" Label="dex" Category="Field" Description="int" />
+    <Node Id="histo_charac_con" Label="con" Category="Field" Description="int" />
+    <Node Id="histo_charac_inte" Label="inte" Category="Field" Description="int" />
+    <Node Id="histo_charac_per" Label="per" Category="Field" Description="int" />
+    <Node Id="histo_charac_pou" Label="pou" Category="Field" Description="int" />
+    <Node Id="histo_charac_vol" Label="vol" Category="Field" Description="int" />
+    <Node Id="Joueur" Label="Joueur" Category="Table" Group="Collapsed" />
+    <Node Id="Joueur_Id_joueur" Label="Id_joueur" Category="Field Primary" Description="bigint" />
+    <Node Id="Joueur_Pseudo_Joueur" Label="Pseudo_Joueur" Category="Field" Description="text" />
+    <Node Id="Joueur_Nom" Label="Nom" Category="Field" Description="text" />
+    <Node Id="Joueur_Prenom" Label="Prenom" Category="Field" Description="text" />
+    <Node Id="Joueur_Classe_level_0" Label="Classe_level_0" Category="Field" Description="text" />
+    <Node Id="Joueur_Sexe" Label="Sexe" Category="Field" Description="text" />
+    <Node Id="Joueur_Origine" Label="Origine" Category="Field" Description="text" />
+    <Node Id="Joueur_Classe_social" Label="Classe_social" Category="Field" Description="text" />
+    <Node Id="Joueur_Age" Label="Age" Category="Field" Description="int" />
+    <Node Id="Joueur_Apparence" Label="Apparence" Category="Field" Description="int" />
+    <Node Id="Joueur_Poid" Label="Poid" Category="Field" Description="int" />
+    <Node Id="Joueur_Hauteur" Label="Hauteur" Category="Field" Description="int" />
+    <Node Id="Joueur_Taille" Label="Taille" Category="Field" Description="int" />
+    <Node Id="Joueur_base_for" Label="base_for" Category="Field" Description="int" />
+    <Node Id="Joueur_base_agi" Label="base_agi" Category="Field" Description="int" />
+    <Node Id="Joueur_base_dex" Label="base_dex" Category="Field" Description="int" />
+    <Node Id="Joueur_base_con" Label="base_con" Category="Field" Description="int" />
+    <Node Id="Joueur_base_int" Label="base_int" Category="Field" Description="int" />
+    <Node Id="Joueur_base_per" Label="base_per" Category="Field" Description="int" />
+    <Node Id="Joueur_base_pou" Label="base_pou" Category="Field" Description="int" />
+    <Node Id="Joueur_base_vol" Label="base_vol" Category="Field" Description="int" />
+    <Node Id="Joueur_total_xp" Label="total_xp" Category="Field" Description="int" />
+    <Node Id="joueur_actu	" Label="joueur_actu	" Category="Table" Group="Collapsed" />
+    <Node Id="joueur_actu	_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="joueur_actu	_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_pv" Label="pv" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_initiative" Label="initiative" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_fatigue" Label="fatigue" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_mouvement" Label="mouvement" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_attaque" Label="attaque" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_parade" Label="parade" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_esquive" Label="esquive" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_port_darmure" Label="port_darmure" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_di" Label="di" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_ki" Label="ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_for_accumulation_ki" Label="for_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_agi_accumulation_ki" Label="agi_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_dex_accumulation_ki" Label="dex_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_con_accumulation_ki" Label="con_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_int_accumulation_ki" Label="int_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_per_accumulation_ki" Label="per_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_pou_accumulation_ki" Label="pou_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_vol_accumulation_ki" Label="vol_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_zeon" Label="zeon" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_amr" Label="amr" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_magie_innee" Label="magie_innee" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_projection_magique" Label="projection_magique" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_convoquer" Label="convoquer" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_dominer" Label="dominer" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_lier" Label="lier" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_revoquer" Label="revoquer" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_ppp" Label="ppp" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_talent_psy" Label="talent_psy" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_projection_psychique" Label="projection_psychique" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_voie_magique" Label="voie_magique" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_multi_zeon_regen" Label="multi_zeon_regen" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_acrobatie" Label="acrobatie" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_athletisme" Label="athletisme" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_equitation" Label="equitation" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_escalade" Label="escalade" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_natation" Label="natation" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_saut" Label="saut" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_impassibilite" Label="impassibilite" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_prouesse" Label="prouesse" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_resistance" Label="resistance" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_observation" Label="observation" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_pistage" Label="pistage" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_vigilance" Label="vigilance" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_animaux" Label="animaux" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_estimation" Label="estimation" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_evaluation_magique" Label="evaluation_magique" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_herboristerie" Label="herboristerie" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_histoire" Label="histoire" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_medecine" Label="medecine" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_memorisation" Label="memorisation" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_navigation" Label="navigation" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_occultisme" Label="occultisme" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_science" Label="science" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_loi" Label="loi" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_tactique" Label="tactique" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_commandement" Label="commandement" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_intimidation" Label="intimidation" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_persuasion" Label="persuasion" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_style" Label="style" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_commerce" Label="commerce" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_conn_rue" Label="conn_rue" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_etiquette" Label="etiquette" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_camouflage" Label="camouflage" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_crochetage" Label="crochetage" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_deguisement" Label="deguisement" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_discretion" Label="discretion" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_larcin" Label="larcin" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_pieges" Label="pieges" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_poison" Label="poison" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_art" Label="art" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_danse" Label="danse" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_forge" Label="forge" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_habilete" Label="habilete" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_musique" Label="musique" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_orfevrerie" Label="orfevrerie" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_confection" Label="confection" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_creation_mario" Label="creation_mario" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_runes" Label="runes" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_alchimie" Label="alchimie" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_animisme" Label="animisme" Category="Field" Description="int" />
+    <Node Id="joueur_actu	_rituel_calligraphie" Label="rituel_calligraphie" Category="Field" Description="int" />
+    <Node Id="joueur_bonus" Label="joueur_bonus" Category="Table" Group="Collapsed" />
+    <Node Id="joueur_bonus_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="joueur_bonus_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_pv" Label="pv" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_initiative" Label="initiative" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_di" Label="di" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_ppp" Label="ppp" Category="Field" Description="numeric(53,0)" />
+    <Node Id="joueur_bonus_charac" Label="charac" Category="Field" Description="numeric(53,0)" />
+    <Node Id="joueur_bonus_attaque" Label="attaque" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_parade" Label="parade" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_esquive" Label="esquive" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_port_darmure" Label="port_darmure" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_convoquer" Label="convoquer" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_dominer" Label="dominer" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_lier" Label="lier" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_revoquer" Label="revoquer" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_zeon" Label="zeon" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_comp_nat_classe" Label="comp_nat_classe" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_acrobatie" Label="acrobatie" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_athletisme" Label="athletisme" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_equitation" Label="equitation" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_escalade" Label="escalade" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_natation" Label="natation" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_saut" Label="saut" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_impassibilite" Label="impassibilite" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_prouesse" Label="prouesse" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_resistance" Label="resistance" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_observation" Label="observation" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_pistage" Label="pistage" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_vigilance" Label="vigilance" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_animaux" Label="animaux" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_estimation" Label="estimation" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_evaluation_magique" Label="evaluation_magique" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_herboristerie" Label="herboristerie" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_histoire" Label="histoire" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_medecine" Label="medecine" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_memorisation" Label="memorisation" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_navigation" Label="navigation" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_occultisme" Label="occultisme" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_science" Label="science" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_loi" Label="loi" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_tactique" Label="tactique" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_commandement" Label="commandement" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_intimidation" Label="intimidation" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_persuasion" Label="persuasion" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_style" Label="style" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_commerce" Label="commerce" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_conn_rue" Label="conn_rue" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_etiquette" Label="etiquette" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_camouflage" Label="camouflage" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_crochetage" Label="crochetage" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_deguisement" Label="deguisement" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_discretion" Label="discretion" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_larcin" Label="larcin" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_pieges" Label="pieges" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_poison" Label="poison" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_art" Label="art" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_danse" Label="danse" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_forge" Label="forge" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_habilete" Label="habilete" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_musique" Label="musique" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_orfevrerie" Label="orfevrerie" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_confection" Label="confection" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_creation_mario" Label="creation_mario" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_runes" Label="runes" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_alchimie" Label="alchimie" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_animisme" Label="animisme" Category="Field" Description="int" />
+    <Node Id="joueur_bonus_rituel_calligraphie" Label="rituel_calligraphie" Category="Field" Description="int" />
+    <Node Id="joueur_cout" Label="joueur_cout" Category="Table" Group="Collapsed" />
+    <Node Id="joueur_cout_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="joueur_cout_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="joueur_cout_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="joueur_cout_multi_pv" Label="multi_pv" Category="Field" Description="int" />
+    <Node Id="joueur_cout_attaque" Label="attaque" Category="Field" Description="int" />
+    <Node Id="joueur_cout_parade" Label="parade" Category="Field" Description="int" />
+    <Node Id="joueur_cout_esquive" Label="esquive" Category="Field" Description="int" />
+    <Node Id="joueur_cout_port_darmure" Label="port_darmure" Category="Field" Description="int" />
+    <Node Id="joueur_cout_di" Label="di" Category="Field" Description="int" />
+    <Node Id="joueur_cout_ki" Label="ki" Category="Field" Description="int" />
+    <Node Id="joueur_cout_accumulation_ki" Label="accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_cout_zeon" Label="zeon" Category="Field" Description="int" />
+    <Node Id="joueur_cout_multi_amr" Label="multi_amr" Category="Field" Description="int" />
+    <Node Id="joueur_cout_projection_magique" Label="projection_magique" Category="Field" Description="int" />
+    <Node Id="joueur_cout_convoquer" Label="convoquer" Category="Field" Description="int" />
+    <Node Id="joueur_cout_dominer" Label="dominer" Category="Field" Description="int" />
+    <Node Id="joueur_cout_lier" Label="lier" Category="Field" Description="int" />
+    <Node Id="joueur_cout_revoquer" Label="revoquer" Category="Field" Description="int" />
+    <Node Id="joueur_cout_ppp" Label="ppp" Category="Field" Description="int" />
+    <Node Id="joueur_cout_projection_psychique" Label="projection_psychique" Category="Field" Description="int" />
+    <Node Id="joueur_cout_voie_magique" Label="voie_magique" Category="Field" Description="int" />
+    <Node Id="joueur_cout_multi_zeon_regen" Label="multi_zeon_regen" Category="Field" Description="int" />
+    <Node Id="joueur_cout_acrobatie" Label="acrobatie" Category="Field" Description="int" />
+    <Node Id="joueur_cout_athletisme" Label="athletisme" Category="Field" Description="int" />
+    <Node Id="joueur_cout_equitation" Label="equitation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_escalade" Label="escalade" Category="Field" Description="int" />
+    <Node Id="joueur_cout_natation" Label="natation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_saut" Label="saut" Category="Field" Description="int" />
+    <Node Id="joueur_cout_impassibilite" Label="impassibilite" Category="Field" Description="int" />
+    <Node Id="joueur_cout_prouesse" Label="prouesse" Category="Field" Description="int" />
+    <Node Id="joueur_cout_resistance" Label="resistance" Category="Field" Description="int" />
+    <Node Id="joueur_cout_observation" Label="observation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_pistage" Label="pistage" Category="Field" Description="int" />
+    <Node Id="joueur_cout_vigilance" Label="vigilance" Category="Field" Description="int" />
+    <Node Id="joueur_cout_animaux" Label="animaux" Category="Field" Description="int" />
+    <Node Id="joueur_cout_estimation" Label="estimation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_evaluation_magique" Label="evaluation_magique" Category="Field" Description="int" />
+    <Node Id="joueur_cout_herboristerie" Label="herboristerie" Category="Field" Description="int" />
+    <Node Id="joueur_cout_histoire" Label="histoire" Category="Field" Description="int" />
+    <Node Id="joueur_cout_medecine" Label="medecine" Category="Field" Description="int" />
+    <Node Id="joueur_cout_memorisation" Label="memorisation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_navigation" Label="navigation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_occultisme" Label="occultisme" Category="Field" Description="int" />
+    <Node Id="joueur_cout_science" Label="science" Category="Field" Description="int" />
+    <Node Id="joueur_cout_loi" Label="loi" Category="Field" Description="int" />
+    <Node Id="joueur_cout_tactique" Label="tactique" Category="Field" Description="int" />
+    <Node Id="joueur_cout_commandement" Label="commandement" Category="Field" Description="int" />
+    <Node Id="joueur_cout_intimidation" Label="intimidation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_persuasion" Label="persuasion" Category="Field" Description="int" />
+    <Node Id="joueur_cout_style" Label="style" Category="Field" Description="int" />
+    <Node Id="joueur_cout_commerce" Label="commerce" Category="Field" Description="int" />
+    <Node Id="joueur_cout_conn_rue" Label="conn_rue" Category="Field" Description="int" />
+    <Node Id="joueur_cout_etiquette" Label="etiquette" Category="Field" Description="int" />
+    <Node Id="joueur_cout_camouflage" Label="camouflage" Category="Field" Description="int" />
+    <Node Id="joueur_cout_crochetage" Label="crochetage" Category="Field" Description="int" />
+    <Node Id="joueur_cout_deguisement" Label="deguisement" Category="Field" Description="int" />
+    <Node Id="joueur_cout_discretion" Label="discretion" Category="Field" Description="int" />
+    <Node Id="joueur_cout_larcin" Label="larcin" Category="Field" Description="int" />
+    <Node Id="joueur_cout_pieges" Label="pieges" Category="Field" Description="int" />
+    <Node Id="joueur_cout_poison" Label="poison" Category="Field" Description="int" />
+    <Node Id="joueur_cout_art" Label="art" Category="Field" Description="int" />
+    <Node Id="joueur_cout_danse" Label="danse" Category="Field" Description="int" />
+    <Node Id="joueur_cout_forge" Label="forge" Category="Field" Description="int" />
+    <Node Id="joueur_cout_habilete" Label="habilete" Category="Field" Description="int" />
+    <Node Id="joueur_cout_musique" Label="musique" Category="Field" Description="int" />
+    <Node Id="joueur_cout_orfevrerie" Label="orfevrerie" Category="Field" Description="int" />
+    <Node Id="joueur_cout_confection" Label="confection" Category="Field" Description="int" />
+    <Node Id="joueur_cout_creation_mario" Label="creation_mario" Category="Field" Description="int" />
+    <Node Id="joueur_cout_runes" Label="runes" Category="Field" Description="int" />
+    <Node Id="joueur_cout_alchimie" Label="alchimie" Category="Field" Description="int" />
+    <Node Id="joueur_cout_animisme" Label="animisme" Category="Field" Description="int" />
+    <Node Id="joueur_cout_rituel_calligraphie" Label="rituel_calligraphie" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_similaire" Label="arme_similaire" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_mixte" Label="arme_mixte" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_distincte_mains_nues" Label="arme_distincte_mains_nues" Category="Field" Description="int" />
+    <Node Id="joueur_cout_catégorie_entiere" Label="catégorie_entiere" Category="Field" Description="int" />
+    <Node Id="joueur_cout_projectile" Label="projectile" Category="Field" Description="int" />
+    <Node Id="joueur_cout_armes_lancer" Label="armes_lancer" Category="Field" Description="int" />
+    <Node Id="joueur_cout_armes_improvisees" Label="armes_improvisees" Category="Field" Description="int" />
+    <Node Id="joueur_cout_armes_barbares" Label="armes_barbares" Category="Field" Description="int" />
+    <Node Id="joueur_cout_armes_chevalier" Label="armes_chevalier" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_gladiateur" Label="arme_gladiateur" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_chasseur" Label="arme_chasseur" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_ninja" Label="arme_ninja" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_assassin" Label="arme_assassin" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_soldat" Label="arme_soldat" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_duelliste" Label="arme_duelliste" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_arborigene" Label="arme_arborigene" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_pirate" Label="arme_pirate" Category="Field" Description="int" />
+    <Node Id="joueur_cout_arme_brigand" Label="arme_brigand" Category="Field" Description="int" />
+    <Node Id="joueur_cout_batto_jutsu" Label="batto_jutsu" Category="Field" Description="int" />
+    <Node Id="joueur_cout_attaque_circulaire" Label="attaque_circulaire" Category="Field" Description="int" />
+    <Node Id="joueur_cout_tenir_joue" Label="tenir_joue" Category="Field" Description="int" />
+    <Node Id="joueur_cout_desarmement" Label="desarmement" Category="Field" Description="int" />
+    <Node Id="joueur_cout_attaque_enchainees" Label="attaque_enchainees" Category="Field" Description="int" />
+    <Node Id="joueur_cout_maniement_offensif_sort" Label="maniement_offensif_sort" Category="Field" Description="int" />
+    <Node Id="joueur_cout_maniement_deffensif_sort" Label="maniement_deffensif_sort" Category="Field" Description="int" />
+    <Node Id="joueur_cout_maniement_matrice" Label="maniement_matrice" Category="Field" Description="int" />
+    <Node Id="joueur_cout_accumulation_projectile" Label="accumulation_projectile" Category="Field" Description="int" />
+    <Node Id="joueur_cout_attaque_supplementaire" Label="attaque_supplementaire" Category="Field" Description="int" />
+    <Node Id="joueur_cout_attaque_inhabituelle" Label="attaque_inhabituelle" Category="Field" Description="int" />
+    <Node Id="joueur_cout_cible_mouvante" Label="cible_mouvante" Category="Field" Description="int" />
+    <Node Id="joueur_cout_combat_aveugle" Label="combat_aveugle" Category="Field" Description="int" />
+    <Node Id="joueur_cout_critique_accru" Label="critique_accru" Category="Field" Description="int" />
+    <Node Id="joueur_cout_defense_projectile" Label="defense_projectile" Category="Field" Description="int" />
+    <Node Id="joueur_cout_deviation" Label="deviation" Category="Field" Description="int" />
+    <Node Id="joueur_cout_tirs_mouvement" Label="tirs_mouvement" Category="Field" Description="int" />
+    <Node Id="joueur_cout_esquive_bouclier" Label="esquive_bouclier" Category="Field" Description="int" />
+    <Node Id="joueur_cout_garde_corp" Label="garde_corp" Category="Field" Description="int" />
+    <Node Id="joueur_cout_mouvement_espace_reduit" Label="mouvement_espace_reduit" Category="Field" Description="int" />
+    <Node Id="joueur_cout_immobilisation_inhabituelle" Label="immobilisation_inhabituelle" Category="Field" Description="int" />
+    <Node Id="joueur_cout_reduction_darmure" Label="reduction_darmure" Category="Field" Description="int" />
+    <Node Id="joueur_cout_deux_arme_style_defensif" Label="deux_arme_style_defensif" Category="Field" Description="int" />
+    <Node Id="joueur_cout_tenue" Label="tenue" Category="Field" Description="int" />
+    <Node Id="joueur_cout_cibles_multiples" Label="cibles_multiples" Category="Field" Description="int" />
+    <Node Id="joueur_depense" Label="joueur_depense" Category="Table" Group="Collapsed" />
+    <Node Id="joueur_depense_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="joueur_depense_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="joueur_depense_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="joueur_depense_multi_pv" Label="multi_pv" Category="Field" Description="int" />
+    <Node Id="joueur_depense_attaque" Label="attaque" Category="Field" Description="int" />
+    <Node Id="joueur_depense_parade" Label="parade" Category="Field" Description="int" />
+    <Node Id="joueur_depense_esquive" Label="esquive" Category="Field" Description="int" />
+    <Node Id="joueur_depense_port_darmure" Label="port_darmure" Category="Field" Description="int" />
+    <Node Id="joueur_depense_di" Label="di" Category="Field" Description="int" />
+    <Node Id="joueur_depense_ki" Label="ki" Category="Field" Description="int" />
+    <Node Id="joueur_depense_accumulation_ki" Label="accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_depense_zeon" Label="zeon" Category="Field" Description="int" />
+    <Node Id="joueur_depense_multi_amr" Label="multi_amr" Category="Field" Description="int" />
+    <Node Id="joueur_depense_projection_magique" Label="projection_magique" Category="Field" Description="int" />
+    <Node Id="joueur_depense_convoquer" Label="convoquer" Category="Field" Description="int" />
+    <Node Id="joueur_depense_dominer" Label="dominer" Category="Field" Description="int" />
+    <Node Id="joueur_depense_lier" Label="lier" Category="Field" Description="int" />
+    <Node Id="joueur_depense_revoquer" Label="revoquer" Category="Field" Description="int" />
+    <Node Id="joueur_depense_ppp" Label="ppp" Category="Field" Description="int" />
+    <Node Id="joueur_depense_projection_psychique" Label="projection_psychique" Category="Field" Description="int" />
+    <Node Id="joueur_depense_talent_psy" Label="talent_psy" Category="Field" Description="int" />
+    <Node Id="joueur_depense_voie_magique" Label="voie_magique" Category="Field" Description="int" />
+    <Node Id="joueur_depense_multi_zeon_regen" Label="multi_zeon_regen" Category="Field" Description="int" />
+    <Node Id="joueur_depense_acrobatie" Label="acrobatie" Category="Field" Description="int" />
+    <Node Id="joueur_depense_athletisme" Label="athletisme" Category="Field" Description="int" />
+    <Node Id="joueur_depense_equitation" Label="equitation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_escalade" Label="escalade" Category="Field" Description="int" />
+    <Node Id="joueur_depense_natation" Label="natation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_saut" Label="saut" Category="Field" Description="int" />
+    <Node Id="joueur_depense_impassibilite" Label="impassibilite" Category="Field" Description="int" />
+    <Node Id="joueur_depense_prouesse" Label="prouesse" Category="Field" Description="int" />
+    <Node Id="joueur_depense_resistance" Label="resistance" Category="Field" Description="int" />
+    <Node Id="joueur_depense_observation" Label="observation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_pistage" Label="pistage" Category="Field" Description="int" />
+    <Node Id="joueur_depense_vigilance" Label="vigilance" Category="Field" Description="int" />
+    <Node Id="joueur_depense_animaux" Label="animaux" Category="Field" Description="int" />
+    <Node Id="joueur_depense_estimation" Label="estimation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_evaluation_magique" Label="evaluation_magique" Category="Field" Description="int" />
+    <Node Id="joueur_depense_herboristerie" Label="herboristerie" Category="Field" Description="int" />
+    <Node Id="joueur_depense_histoire" Label="histoire" Category="Field" Description="int" />
+    <Node Id="joueur_depense_medecine" Label="medecine" Category="Field" Description="int" />
+    <Node Id="joueur_depense_memorisation" Label="memorisation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_navigation" Label="navigation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_occultisme" Label="occultisme" Category="Field" Description="int" />
+    <Node Id="joueur_depense_science" Label="science" Category="Field" Description="int" />
+    <Node Id="joueur_depense_loi" Label="loi" Category="Field" Description="int" />
+    <Node Id="joueur_depense_tactique" Label="tactique" Category="Field" Description="int" />
+    <Node Id="joueur_depense_commandement" Label="commandement" Category="Field" Description="int" />
+    <Node Id="joueur_depense_intimidation" Label="intimidation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_persuasion" Label="persuasion" Category="Field" Description="int" />
+    <Node Id="joueur_depense_style" Label="style" Category="Field" Description="int" />
+    <Node Id="joueur_depense_commerce" Label="commerce" Category="Field" Description="int" />
+    <Node Id="joueur_depense_conn_rue" Label="conn_rue" Category="Field" Description="int" />
+    <Node Id="joueur_depense_etiquette" Label="etiquette" Category="Field" Description="int" />
+    <Node Id="joueur_depense_camouflage" Label="camouflage" Category="Field" Description="int" />
+    <Node Id="joueur_depense_crochetage" Label="crochetage" Category="Field" Description="int" />
+    <Node Id="joueur_depense_deguisement" Label="deguisement" Category="Field" Description="int" />
+    <Node Id="joueur_depense_discretion" Label="discretion" Category="Field" Description="int" />
+    <Node Id="joueur_depense_larcin" Label="larcin" Category="Field" Description="int" />
+    <Node Id="joueur_depense_pieges" Label="pieges" Category="Field" Description="int" />
+    <Node Id="joueur_depense_poison" Label="poison" Category="Field" Description="int" />
+    <Node Id="joueur_depense_art" Label="art" Category="Field" Description="int" />
+    <Node Id="joueur_depense_danse" Label="danse" Category="Field" Description="int" />
+    <Node Id="joueur_depense_forge" Label="forge" Category="Field" Description="int" />
+    <Node Id="joueur_depense_habilete" Label="habilete" Category="Field" Description="int" />
+    <Node Id="joueur_depense_musique" Label="musique" Category="Field" Description="int" />
+    <Node Id="joueur_depense_orfevrerie" Label="orfevrerie" Category="Field" Description="int" />
+    <Node Id="joueur_depense_confection" Label="confection" Category="Field" Description="int" />
+    <Node Id="joueur_depense_creation_mario" Label="creation_mario" Category="Field" Description="int" />
+    <Node Id="joueur_depense_runes" Label="runes" Category="Field" Description="int" />
+    <Node Id="joueur_depense_alchimie" Label="alchimie" Category="Field" Description="int" />
+    <Node Id="joueur_depense_animisme" Label="animisme" Category="Field" Description="int" />
+    <Node Id="joueur_depense_rituel_calligraphie" Label="rituel_calligraphie" Category="Field" Description="int" />
+    <Node Id="joueur_depense_acrobatie_char" Label="acrobatie_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_athletisme_char" Label="athletisme_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_equitation_char" Label="equitation_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_escalade_char" Label="escalade_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_natation_char" Label="natation_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_saut_char" Label="saut_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_impassibilite_char" Label="impassibilite_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_prouesse_char" Label="prouesse_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_resistance_char" Label="resistance_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_observation_char" Label="observation_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_pistage_char" Label="pistage_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_vigilance_char" Label="vigilance_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_animaux_char" Label="animaux_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_estimation_char" Label="estimation_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_evaluation_magique_char" Label="evaluation_magique_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_herboristerie_char" Label="herboristerie_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_histoire_char" Label="histoire_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_medecine_char" Label="medecine_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_memorisation_char" Label="memorisation_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_navigation_char" Label="navigation_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_occultisme_char" Label="occultisme_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_science_char" Label="science_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_loi_char" Label="loi_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_tactique_char" Label="tactique_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_commandement_char" Label="commandement_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_intimidation_char" Label="intimidation_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_persuasion_char" Label="persuasion_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_style_char" Label="style_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_commerce_char" Label="commerce_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_conn_rue_char" Label="conn_rue_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_etiquette_char" Label="etiquette_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_camouflage_char" Label="camouflage_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_crochetage_char" Label="crochetage_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_deguisement_char" Label="deguisement_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_discretion_char" Label="discretion_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_larcin_char" Label="larcin_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_pieges_char" Label="pieges_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_poison_char" Label="poison_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_art_char" Label="art_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_danse_char" Label="danse_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_forge_char" Label="forge_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_habilete_char" Label="habilete_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_musique_char" Label="musique_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_orfevrerie_char" Label="orfevrerie_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_confection_char" Label="confection_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_creation_mario_char" Label="creation_mario_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_runes_char" Label="runes_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_alchimie_char" Label="alchimie_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_animisme_char" Label="animisme_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_rituel_calligraphie_char" Label="rituel_calligraphie_char" Category="Field" Description="int" />
+    <Node Id="joueur_depense_acrobatie_nat" Label="acrobatie_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_athletisme_nat" Label="athletisme_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_equitation_nat" Label="equitation_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_escalade_nat" Label="escalade_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_natation_nat" Label="natation_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_saut_nat" Label="saut_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_impassibilite_nat" Label="impassibilite_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_prouesse_nat" Label="prouesse_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_resistance_nat" Label="resistance_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_observation_nat" Label="observation_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_pistage_nat" Label="pistage_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_vigilance_nat" Label="vigilance_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_animaux_nat" Label="animaux_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_estimation_nat" Label="estimation_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_evaluation_magique_nat" Label="evaluation_magique_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_herboristerie_nat" Label="herboristerie_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_histoire_nat" Label="histoire_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_medecine_nat" Label="medecine_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_memorisation_nat" Label="memorisation_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_navigation_nat" Label="navigation_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_occultisme_nat" Label="occultisme_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_science_nat" Label="science_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_loi_nat" Label="loi_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_tactique_nat" Label="tactique_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_commandement_nat" Label="commandement_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_intimidation_nat" Label="intimidation_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_persuasion_nat" Label="persuasion_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_style_nat" Label="style_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_commerce_nat" Label="commerce_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_conn_rue_nat" Label="conn_rue_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_etiquette_nat" Label="etiquette_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_camouflage_nat" Label="camouflage_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_crochetage_nat" Label="crochetage_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_deguisement_nat" Label="deguisement_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_discretion_nat" Label="discretion_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_larcin_nat" Label="larcin_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_pieges_nat" Label="pieges_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_poison_nat" Label="poison_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_art_nat" Label="art_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_danse_nat" Label="danse_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_forge_nat" Label="forge_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_habilete_nat" Label="habilete_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_musique_nat" Label="musique_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_orfevrerie_nat" Label="orfevrerie_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_confection_nat" Label="confection_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_creation_mario_nat" Label="creation_mario_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_runes_nat" Label="runes_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_alchimie_nat" Label="alchimie_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_animisme_nat" Label="animisme_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_rituel_calligraphie_nat" Label="rituel_calligraphie_nat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_similaire" Label="arme_similaire" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_mixte" Label="arme_mixte" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_distincte_mains_nues" Label="arme_distincte_mains_nues" Category="Field" Description="int" />
+    <Node Id="joueur_depense_catégorie_entiere" Label="catégorie_entiere" Category="Field" Description="int" />
+    <Node Id="joueur_depense_projectile" Label="projectile" Category="Field" Description="int" />
+    <Node Id="joueur_depense_armes_lancer" Label="armes_lancer" Category="Field" Description="int" />
+    <Node Id="joueur_depense_armes_improvisees" Label="armes_improvisees" Category="Field" Description="int" />
+    <Node Id="joueur_depense_armes_barbares" Label="armes_barbares" Category="Field" Description="int" />
+    <Node Id="joueur_depense_armes_chevalier" Label="armes_chevalier" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_gladiateur" Label="arme_gladiateur" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_chasseur" Label="arme_chasseur" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_ninja" Label="arme_ninja" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_assassin" Label="arme_assassin" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_soldat" Label="arme_soldat" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_duelliste" Label="arme_duelliste" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_arborigene" Label="arme_arborigene" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_pirate" Label="arme_pirate" Category="Field" Description="int" />
+    <Node Id="joueur_depense_arme_brigand" Label="arme_brigand" Category="Field" Description="int" />
+    <Node Id="joueur_depense_batto_jutsu" Label="batto_jutsu" Category="Field" Description="int" />
+    <Node Id="joueur_depense_attaque_circulaire" Label="attaque_circulaire" Category="Field" Description="int" />
+    <Node Id="joueur_depense_tenir_joue" Label="tenir_joue" Category="Field" Description="int" />
+    <Node Id="joueur_depense_desarmement" Label="desarmement" Category="Field" Description="int" />
+    <Node Id="joueur_depense_attaque_enchainees" Label="attaque_enchainees" Category="Field" Description="int" />
+    <Node Id="joueur_depense_maniement_offensif_sort" Label="maniement_offensif_sort" Category="Field" Description="int" />
+    <Node Id="joueur_depense_maniement_deffensif_sort" Label="maniement_deffensif_sort" Category="Field" Description="int" />
+    <Node Id="joueur_depense_maniement_matrice" Label="maniement_matrice" Category="Field" Description="int" />
+    <Node Id="joueur_depense_accumulation_projectile" Label="accumulation_projectile" Category="Field" Description="int" />
+    <Node Id="joueur_depense_attaque_supplementaire" Label="attaque_supplementaire" Category="Field" Description="int" />
+    <Node Id="joueur_depense_attaque_inhabituelle" Label="attaque_inhabituelle" Category="Field" Description="int" />
+    <Node Id="joueur_depense_cible_mouvante" Label="cible_mouvante" Category="Field" Description="int" />
+    <Node Id="joueur_depense_combat_aveugle" Label="combat_aveugle" Category="Field" Description="int" />
+    <Node Id="joueur_depense_critique_accru" Label="critique_accru" Category="Field" Description="int" />
+    <Node Id="joueur_depense_defense_projectile" Label="defense_projectile" Category="Field" Description="int" />
+    <Node Id="joueur_depense_deviation" Label="deviation" Category="Field" Description="int" />
+    <Node Id="joueur_depense_tirs_mouvement" Label="tirs_mouvement" Category="Field" Description="int" />
+    <Node Id="joueur_depense_esquive_bouclier" Label="esquive_bouclier" Category="Field" Description="int" />
+    <Node Id="joueur_depense_garde_corp" Label="garde_corp" Category="Field" Description="int" />
+    <Node Id="joueur_depense_mouvement_espace_reduit" Label="mouvement_espace_reduit" Category="Field" Description="int" />
+    <Node Id="joueur_depense_immobilisation_inhabituelle" Label="immobilisation_inhabituelle" Category="Field" Description="int" />
+    <Node Id="joueur_depense_reduction_darmure" Label="reduction_darmure" Category="Field" Description="int" />
+    <Node Id="joueur_depense_deux_arme_style_defensif" Label="deux_arme_style_defensif" Category="Field" Description="int" />
+    <Node Id="joueur_depense_tenue" Label="tenue" Category="Field" Description="int" />
+    <Node Id="joueur_depense_cibles_multiples" Label="cibles_multiples" Category="Field" Description="int" />
+    <Node Id="joueur_temp	" Label="joueur_temp	" Category="Table" Group="Collapsed" />
+    <Node Id="joueur_temp	_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="joueur_temp	_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_pv" Label="pv" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_initiative" Label="initiative" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_fatigue" Label="fatigue" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_mouvement" Label="mouvement" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_attaque" Label="attaque" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_parade" Label="parade" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_esquive" Label="esquive" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_port_darmure" Label="port_darmure" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_di" Label="di" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_ki" Label="ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_for_accumulation_ki" Label="for_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_agi_accumulation_ki" Label="agi_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_dex_accumulation_ki" Label="dex_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_con_accumulation_ki" Label="con_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_int_accumulation_ki" Label="int_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_per_accumulation_ki" Label="per_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_pou_accumulation_ki" Label="pou_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_vol_accumulation_ki" Label="vol_accumulation_ki" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_zeon" Label="zeon" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_amr" Label="amr" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_magie_innee" Label="magie_innee" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_projection_magique" Label="projection_magique" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_convoquer" Label="convoquer" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_dominer" Label="dominer" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_lier" Label="lier" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_revoquer" Label="revoquer" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_ppp" Label="ppp" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_talent_psy" Label="talent_psy" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_projection_psychique" Label="projection_psychique" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_voie_magique" Label="voie_magique" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_multi_zeon_regen" Label="multi_zeon_regen" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_acrobatie" Label="acrobatie" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_athletisme" Label="athletisme" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_equitation" Label="equitation" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_escalade" Label="escalade" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_natation" Label="natation" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_saut" Label="saut" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_impassibilite" Label="impassibilite" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_prouesse" Label="prouesse" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_resistance" Label="resistance" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_observation" Label="observation" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_pistage" Label="pistage" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_vigilance" Label="vigilance" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_animaux" Label="animaux" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_estimation" Label="estimation" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_evaluation_magique" Label="evaluation_magique" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_herboristerie" Label="herboristerie" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_histoire" Label="histoire" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_medecine" Label="medecine" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_memorisation" Label="memorisation" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_navigation" Label="navigation" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_occultisme" Label="occultisme" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_science" Label="science" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_loi" Label="loi" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_tactique" Label="tactique" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_commandement" Label="commandement" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_intimidation" Label="intimidation" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_persuasion" Label="persuasion" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_style" Label="style" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_commerce" Label="commerce" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_conn_rue" Label="conn_rue" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_etiquette" Label="etiquette" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_camouflage" Label="camouflage" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_crochetage" Label="crochetage" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_deguisement" Label="deguisement" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_discretion" Label="discretion" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_larcin" Label="larcin" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_pieges" Label="pieges" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_poison" Label="poison" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_art" Label="art" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_danse" Label="danse" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_forge" Label="forge" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_habilete" Label="habilete" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_musique" Label="musique" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_orfevrerie" Label="orfevrerie" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_confection" Label="confection" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_creation_mario" Label="creation_mario" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_runes" Label="runes" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_alchimie" Label="alchimie" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_animisme" Label="animisme" Category="Field" Description="int" />
+    <Node Id="joueur_temp	_rituel_calligraphie" Label="rituel_calligraphie" Category="Field" Description="int" />
+    <Node Id="Level" Label="Level" Category="Table" Group="Collapsed" />
+    <Node Id="Level_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="Level_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="Level_level" Label="level" Category="Field" Description="int" />
+    <Node Id="Level_classe" Label="classe" Category="Field" Description="text" />
+    <Node Id="Level_pf_restant" Label="pf_restant" Category="Field" Description="int" />
+    <Node Id="Level_di_restant" Label="di_restant" Category="Field" Description="int" />
+    <Node Id="Level_ppp_restant" Label="ppp_restant" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Level_char_nat" Label="char_nat" Category="Field" Description="int" />
+    <Node Id="Level_comp_nat" Label="comp_nat" Category="Field" Description="int" />
+    <Node Id="module_darme" Label="module_darme" Category="Table" Group="Collapsed" />
+    <Node Id="module_darme_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="module_darme_nom" Label="nom" Category="Field" Description="text" />
+    <Node Id="module_darme_cout" Label="cout" Category="Field" Description="int" />
+    <Node Id="module_darme_description" Label="description" Category="Field" Description="text" />
+    <Node Id="module_joueur" Label="module_joueur" Category="Table" Group="Collapsed" />
+    <Node Id="module_joueur_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="module_joueur_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="module_joueur_id_classe" Label="id_classe" Category="Field" Description="int" />
+    <Node Id="module_joueur_id_module" Label="id_module" Category="Field" Description="int" />
+    <Node Id="module_joueur_nombre" Label="nombre" Category="Field" Description="int" />
+    <Node Id="pouvoir_joueur" Label="pouvoir_joueur" Category="Table" Group="Collapsed" />
+    <Node Id="pouvoir_joueur_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="pouvoir_joueur_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="pouvoir_joueur_id__pouvoir" Label="id__pouvoir" Category="Field" Description="int" />
+    <Node Id="pouvoir_joueur_cout" Label="cout" Category="Field" Description="int" />
+    <Node Id="pouvoir_ki" Label="pouvoir_ki" Category="Table" Group="Collapsed" />
+    <Node Id="pouvoir_ki_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="pouvoir_ki_nom" Label="nom" Category="Field" Description="text" />
+    <Node Id="pouvoir_ki_cout" Label="cout" Category="Field" Description="int" />
+    <Node Id="pouvoir_ki_condition" Label="condition" Category="Field" Description="int" />
+    <Node Id="pouvoir_ki_effet" Label="effet" Category="Field" Description="int" />
+    <Node Id="temp_charac" Label="temp_charac" Category="Table" Group="Collapsed" />
+    <Node Id="temp_charac_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="temp_charac_id_joueur" Label="id_joueur" Category="Field" Description="int" />
+    <Node Id="temp_charac_Forca" Label="Forca" Category="Field" Description="int" />
+    <Node Id="temp_charac_agi" Label="agi" Category="Field" Description="int" />
+    <Node Id="temp_charac_dex" Label="dex" Category="Field" Description="int" />
+    <Node Id="temp_charac_con" Label="con" Category="Field" Description="int" />
+    <Node Id="temp_charac_inte" Label="inte" Category="Field" Description="int" />
+    <Node Id="temp_charac_per" Label="per" Category="Field" Description="int" />
+    <Node Id="temp_charac_pou" Label="pou" Category="Field" Description="int" />
+    <Node Id="temp_charac_vol" Label="vol" Category="Field" Description="int" />
+  </Nodes>
+  <Links>
+    <Link Source="Database" Target="Art_martiaux" Category="Contains" />
+    <Link Source="Art_martiaux" Target="Art_martiaux_Id" Category="Contains" />
+    <Link Source="Art_martiaux" Target="Art_martiaux_Nom" Category="Contains" />
+    <Link Source="Database" Target="Classe" Category="Contains" />
+    <Link Source="Classe" Target="Classe_Id" Category="Contains" />
+    <Link Source="Classe" Target="Classe_Nom" Category="Contains" />
+    <Link Source="Database" Target="classe_bonus" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_Id" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_id_classe" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_pv" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_initiative" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_di" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_ppp" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_charac" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_attaque" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_parade" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_esquive" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_port_darmure" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_convoquer" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_dominer" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_lier" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_revoquer" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_zeon" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_comp_nat_classe" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_acrobatie" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_athletisme" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_equitation" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_escalade" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_natation" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_saut" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_impassibilite" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_prouesse" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_resistance" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_observation" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_pistage" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_vigilance" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_animaux" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_estimation" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_evaluation_magique" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_herboristerie" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_histoire" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_medecine" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_memorisation" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_navigation" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_occultisme" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_science" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_loi" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_tactique" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_commandement" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_intimidation" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_persuasion" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_style" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_commerce" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_conn_rue" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_etiquette" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_camouflage" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_crochetage" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_deguisement" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_discretion" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_larcin" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_pieges" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_poison" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_art" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_danse" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_forge" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_habilete" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_musique" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_orfevrerie" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_confection" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_creation_mario" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_runes" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_alchimie" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_animisme" Category="Contains" />
+    <Link Source="classe_bonus" Target="classe_bonus_rituel_calligraphie" Category="Contains" />
+    <Link Source="Database" Target="classe_cout" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_Id" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_multi_pv" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_id_classe" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_attaque" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_parade" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_esquive" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_port_darmure" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_di" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_ki" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_accumulation_ki" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_zeon" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_multi_amr" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_projection_magique" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_convoquer" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_dominer" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_lier" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_revoquer" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_ppp" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_projection_psychique" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_voie_magique" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_multi_zeon_regen" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_acrobatie" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_athletisme" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_equitation" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_escalade" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_natation" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_saut" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_impassibilite" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_prouesse" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_resistance" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_observation" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_pistage" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_vigilance" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_animaux" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_estimation" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_evaluation_magique" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_herboristerie" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_histoire" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_medecine" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_memorisation" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_navigation" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_occultisme" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_science" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_loi" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_tactique" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_commandement" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_intimidation" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_persuasion" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_style" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_commerce" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_conn_rue" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_etiquette" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_camouflage" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_crochetage" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_deguisement" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_discretion" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_larcin" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_pieges" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_poison" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_art" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_danse" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_forge" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_habilete" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_musique" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_orfevrerie" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_confection" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_creation_mario" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_runes" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_alchimie" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_animisme" Category="Contains" />
+    <Link Source="classe_cout" Target="classe_cout_rituel_calligraphie" Category="Contains" />
+    <Link Source="Database" Target="competence" Category="Contains" />
+    <Link Source="competence" Target="competence_Id" Category="Contains" />
+    <Link Source="competence" Target="competence_nom" Category="Contains" />
+    <Link Source="competence" Target="competence_type" Category="Contains" />
+    <Link Source="competence" Target="competence_description" Category="Contains" />
+    <Link Source="Database" Target="Dons" Category="Contains" />
+    <Link Source="Dons" Target="Dons_Id" Category="Contains" />
+    <Link Source="Dons" Target="Dons_Nom" Category="Contains" />
+    <Link Source="Dons" Target="Dons_effet" Category="Contains" />
+    <Link Source="Dons" Target="Dons_cout" Category="Contains" />
+    <Link Source="Dons" Target="Dons_nombre" Category="Contains" />
+    <Link Source="Dons" Target="Dons_droit_daccees" Category="Contains" />
+    <Link Source="Dons" Target="Dons_famille" Category="Contains" />
+    <Link Source="Database" Target="histo_charac" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_Id" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_id_joueur" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_id_niveau" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_Forca" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_agi" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_dex" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_con" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_inte" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_per" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_pou" Category="Contains" />
+    <Link Source="histo_charac" Target="histo_charac_vol" Category="Contains" />
+    <Link Source="Database" Target="Joueur" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Id_joueur" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Pseudo_Joueur" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Nom" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Prenom" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Classe_level_0" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Sexe" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Origine" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Classe_social" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Age" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Apparence" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Poid" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Hauteur" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_Taille" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_for" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_agi" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_dex" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_con" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_int" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_per" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_pou" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_base_vol" Category="Contains" />
+    <Link Source="Joueur" Target="Joueur_total_xp" Category="Contains" />
+    <Link Source="Database" Target="joueur_actu	" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_Id" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_id_classe" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_id_joueur" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_pv" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_initiative" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_fatigue" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_mouvement" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_attaque" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_parade" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_esquive" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_port_darmure" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_di" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_for_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_agi_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_dex_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_con_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_int_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_per_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_pou_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_vol_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_zeon" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_amr" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_magie_innee" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_projection_magique" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_convoquer" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_dominer" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_lier" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_revoquer" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_ppp" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_talent_psy" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_projection_psychique" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_voie_magique" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_multi_zeon_regen" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_acrobatie" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_athletisme" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_equitation" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_escalade" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_natation" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_saut" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_impassibilite" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_prouesse" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_resistance" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_observation" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_pistage" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_vigilance" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_animaux" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_estimation" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_evaluation_magique" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_herboristerie" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_histoire" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_medecine" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_memorisation" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_navigation" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_occultisme" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_science" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_loi" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_tactique" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_commandement" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_intimidation" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_persuasion" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_style" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_commerce" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_conn_rue" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_etiquette" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_camouflage" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_crochetage" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_deguisement" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_discretion" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_larcin" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_pieges" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_poison" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_art" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_danse" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_forge" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_habilete" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_musique" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_orfevrerie" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_confection" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_creation_mario" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_runes" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_alchimie" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_animisme" Category="Contains" />
+    <Link Source="joueur_actu	" Target="joueur_actu	_rituel_calligraphie" Category="Contains" />
+    <Link Source="Database" Target="joueur_bonus" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_Id" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_id_classe" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_id_joueur" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_pv" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_initiative" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_di" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_ppp" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_charac" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_attaque" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_parade" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_esquive" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_port_darmure" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_convoquer" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_dominer" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_lier" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_revoquer" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_zeon" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_comp_nat_classe" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_acrobatie" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_athletisme" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_equitation" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_escalade" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_natation" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_saut" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_impassibilite" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_prouesse" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_resistance" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_observation" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_pistage" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_vigilance" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_animaux" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_estimation" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_evaluation_magique" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_herboristerie" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_histoire" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_medecine" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_memorisation" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_navigation" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_occultisme" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_science" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_loi" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_tactique" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_commandement" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_intimidation" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_persuasion" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_style" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_commerce" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_conn_rue" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_etiquette" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_camouflage" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_crochetage" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_deguisement" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_discretion" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_larcin" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_pieges" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_poison" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_art" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_danse" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_forge" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_habilete" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_musique" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_orfevrerie" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_confection" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_creation_mario" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_runes" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_alchimie" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_animisme" Category="Contains" />
+    <Link Source="joueur_bonus" Target="joueur_bonus_rituel_calligraphie" Category="Contains" />
+    <Link Source="Database" Target="joueur_cout" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_Id" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_id_classe" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_id_joueur" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_multi_pv" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_attaque" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_parade" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_esquive" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_port_darmure" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_di" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_ki" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_zeon" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_multi_amr" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_projection_magique" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_convoquer" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_dominer" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_lier" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_revoquer" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_ppp" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_projection_psychique" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_voie_magique" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_multi_zeon_regen" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_acrobatie" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_athletisme" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_equitation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_escalade" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_natation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_saut" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_impassibilite" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_prouesse" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_resistance" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_observation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_pistage" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_vigilance" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_animaux" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_estimation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_evaluation_magique" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_herboristerie" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_histoire" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_medecine" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_memorisation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_navigation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_occultisme" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_science" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_loi" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_tactique" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_commandement" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_intimidation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_persuasion" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_style" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_commerce" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_conn_rue" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_etiquette" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_camouflage" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_crochetage" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_deguisement" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_discretion" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_larcin" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_pieges" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_poison" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_art" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_danse" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_forge" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_habilete" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_musique" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_orfevrerie" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_confection" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_creation_mario" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_runes" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_alchimie" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_animisme" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_rituel_calligraphie" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_similaire" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_mixte" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_distincte_mains_nues" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_catégorie_entiere" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_projectile" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_armes_lancer" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_armes_improvisees" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_armes_barbares" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_armes_chevalier" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_gladiateur" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_chasseur" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_ninja" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_assassin" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_soldat" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_duelliste" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_arborigene" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_pirate" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_arme_brigand" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_batto_jutsu" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_attaque_circulaire" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_tenir_joue" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_desarmement" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_attaque_enchainees" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_maniement_offensif_sort" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_maniement_deffensif_sort" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_maniement_matrice" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_accumulation_projectile" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_attaque_supplementaire" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_attaque_inhabituelle" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_cible_mouvante" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_combat_aveugle" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_critique_accru" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_defense_projectile" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_deviation" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_tirs_mouvement" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_esquive_bouclier" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_garde_corp" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_mouvement_espace_reduit" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_immobilisation_inhabituelle" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_reduction_darmure" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_deux_arme_style_defensif" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_tenue" Category="Contains" />
+    <Link Source="joueur_cout" Target="joueur_cout_cibles_multiples" Category="Contains" />
+    <Link Source="Database" Target="joueur_depense" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_Id" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_id_classe" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_id_joueur" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_multi_pv" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_attaque" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_parade" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_esquive" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_port_darmure" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_di" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_ki" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_zeon" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_multi_amr" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_projection_magique" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_convoquer" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_dominer" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_lier" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_revoquer" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_ppp" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_projection_psychique" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_talent_psy" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_voie_magique" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_multi_zeon_regen" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_acrobatie" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_athletisme" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_equitation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_escalade" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_natation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_saut" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_impassibilite" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_prouesse" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_resistance" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_observation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_pistage" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_vigilance" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_animaux" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_estimation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_evaluation_magique" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_herboristerie" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_histoire" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_medecine" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_memorisation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_navigation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_occultisme" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_science" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_loi" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_tactique" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_commandement" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_intimidation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_persuasion" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_style" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_commerce" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_conn_rue" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_etiquette" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_camouflage" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_crochetage" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_deguisement" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_discretion" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_larcin" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_pieges" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_poison" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_art" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_danse" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_forge" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_habilete" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_musique" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_orfevrerie" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_confection" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_creation_mario" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_runes" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_alchimie" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_animisme" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_rituel_calligraphie" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_acrobatie_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_athletisme_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_equitation_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_escalade_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_natation_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_saut_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_impassibilite_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_prouesse_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_resistance_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_observation_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_pistage_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_vigilance_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_animaux_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_estimation_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_evaluation_magique_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_herboristerie_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_histoire_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_medecine_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_memorisation_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_navigation_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_occultisme_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_science_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_loi_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_tactique_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_commandement_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_intimidation_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_persuasion_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_style_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_commerce_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_conn_rue_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_etiquette_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_camouflage_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_crochetage_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_deguisement_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_discretion_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_larcin_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_pieges_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_poison_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_art_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_danse_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_forge_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_habilete_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_musique_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_orfevrerie_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_confection_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_creation_mario_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_runes_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_alchimie_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_animisme_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_rituel_calligraphie_char" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_acrobatie_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_athletisme_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_equitation_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_escalade_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_natation_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_saut_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_impassibilite_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_prouesse_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_resistance_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_observation_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_pistage_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_vigilance_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_animaux_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_estimation_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_evaluation_magique_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_herboristerie_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_histoire_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_medecine_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_memorisation_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_navigation_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_occultisme_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_science_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_loi_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_tactique_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_commandement_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_intimidation_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_persuasion_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_style_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_commerce_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_conn_rue_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_etiquette_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_camouflage_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_crochetage_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_deguisement_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_discretion_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_larcin_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_pieges_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_poison_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_art_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_danse_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_forge_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_habilete_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_musique_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_orfevrerie_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_confection_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_creation_mario_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_runes_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_alchimie_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_animisme_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_rituel_calligraphie_nat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_similaire" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_mixte" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_distincte_mains_nues" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_catégorie_entiere" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_projectile" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_armes_lancer" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_armes_improvisees" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_armes_barbares" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_armes_chevalier" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_gladiateur" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_chasseur" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_ninja" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_assassin" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_soldat" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_duelliste" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_arborigene" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_pirate" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_arme_brigand" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_batto_jutsu" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_attaque_circulaire" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_tenir_joue" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_desarmement" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_attaque_enchainees" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_maniement_offensif_sort" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_maniement_deffensif_sort" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_maniement_matrice" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_accumulation_projectile" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_attaque_supplementaire" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_attaque_inhabituelle" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_cible_mouvante" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_combat_aveugle" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_critique_accru" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_defense_projectile" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_deviation" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_tirs_mouvement" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_esquive_bouclier" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_garde_corp" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_mouvement_espace_reduit" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_immobilisation_inhabituelle" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_reduction_darmure" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_deux_arme_style_defensif" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_tenue" Category="Contains" />
+    <Link Source="joueur_depense" Target="joueur_depense_cibles_multiples" Category="Contains" />
+    <Link Source="Database" Target="joueur_temp	" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_Id" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_id_classe" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_id_joueur" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_pv" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_initiative" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_fatigue" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_mouvement" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_attaque" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_parade" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_esquive" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_port_darmure" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_di" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_for_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_agi_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_dex_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_con_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_int_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_per_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_pou_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_vol_accumulation_ki" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_zeon" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_amr" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_magie_innee" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_projection_magique" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_convoquer" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_dominer" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_lier" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_revoquer" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_ppp" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_talent_psy" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_projection_psychique" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_voie_magique" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_multi_zeon_regen" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_acrobatie" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_athletisme" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_equitation" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_escalade" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_natation" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_saut" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_impassibilite" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_prouesse" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_resistance" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_observation" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_pistage" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_vigilance" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_animaux" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_estimation" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_evaluation_magique" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_herboristerie" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_histoire" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_medecine" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_memorisation" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_navigation" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_occultisme" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_science" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_loi" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_tactique" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_commandement" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_intimidation" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_persuasion" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_style" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_commerce" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_conn_rue" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_etiquette" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_camouflage" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_crochetage" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_deguisement" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_discretion" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_larcin" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_pieges" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_poison" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_art" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_danse" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_forge" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_habilete" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_musique" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_orfevrerie" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_confection" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_creation_mario" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_runes" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_alchimie" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_animisme" Category="Contains" />
+    <Link Source="joueur_temp	" Target="joueur_temp	_rituel_calligraphie" Category="Contains" />
+    <Link Source="Database" Target="Level" Category="Contains" />
+    <Link Source="Level" Target="Level_Id" Category="Contains" />
+    <Link Source="Level" Target="Level_id_joueur" Category="Contains" />
+    <Link Source="Level" Target="Level_level" Category="Contains" />
+    <Link Source="Level" Target="Level_classe" Category="Contains" />
+    <Link Source="Level" Target="Level_pf_restant" Category="Contains" />
+    <Link Source="Level" Target="Level_di_restant" Category="Contains" />
+    <Link Source="Level" Target="Level_ppp_restant" Category="Contains" />
+    <Link Source="Level" Target="Level_char_nat" Category="Contains" />
+    <Link Source="Level" Target="Level_comp_nat" Category="Contains" />
+    <Link Source="Database" Target="module_darme" Category="Contains" />
+    <Link Source="module_darme" Target="module_darme_Id" Category="Contains" />
+    <Link Source="module_darme" Target="module_darme_nom" Category="Contains" />
+    <Link Source="module_darme" Target="module_darme_cout" Category="Contains" />
+    <Link Source="module_darme" Target="module_darme_description" Category="Contains" />
+    <Link Source="Database" Target="module_joueur" Category="Contains" />
+    <Link Source="module_joueur" Target="module_joueur_Id" Category="Contains" />
+    <Link Source="module_joueur" Target="module_joueur_id_joueur" Category="Contains" />
+    <Link Source="module_joueur" Target="module_joueur_id_classe" Category="Contains" />
+    <Link Source="module_joueur" Target="module_joueur_id_module" Category="Contains" />
+    <Link Source="module_joueur" Target="module_joueur_nombre" Category="Contains" />
+    <Link Source="Database" Target="pouvoir_joueur" Category="Contains" />
+    <Link Source="pouvoir_joueur" Target="pouvoir_joueur_Id" Category="Contains" />
+    <Link Source="pouvoir_joueur" Target="pouvoir_joueur_id_joueur" Category="Contains" />
+    <Link Source="pouvoir_joueur" Target="pouvoir_joueur_id__pouvoir" Category="Contains" />
+    <Link Source="pouvoir_joueur" Target="pouvoir_joueur_cout" Category="Contains" />
+    <Link Source="Database" Target="pouvoir_ki" Category="Contains" />
+    <Link Source="pouvoir_ki" Target="pouvoir_ki_Id" Category="Contains" />
+    <Link Source="pouvoir_ki" Target="pouvoir_ki_nom" Category="Contains" />
+    <Link Source="pouvoir_ki" Target="pouvoir_ki_cout" Category="Contains" />
+    <Link Source="pouvoir_ki" Target="pouvoir_ki_condition" Category="Contains" />
+    <Link Source="pouvoir_ki" Target="pouvoir_ki_effet" Category="Contains" />
+    <Link Source="Database" Target="temp_charac" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_Id" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_id_joueur" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_Forca" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_agi" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_dex" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_con" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_inte" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_per" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_pou" Category="Contains" />
+    <Link Source="temp_charac" Target="temp_charac_vol" Category="Contains" />
+  </Links>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="True">
+      <Condition Expression="HasCategory('Field')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>
