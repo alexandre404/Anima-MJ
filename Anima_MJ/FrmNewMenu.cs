@@ -21,26 +21,27 @@ namespace Anima_MJ
 
         private void FrmNewMenu_Load(object sender, EventArgs e)
         {
-            
-            try
+            int c = 0;
+            Boolean classe = true;
+            var query = from a in Donnees.Db.joueur_cout
+                        where a.id_joueur == perso.Id
+                        select a;
+            foreach (var a in query)
             {
-               
-                
-                var query = from a in Donnees.Db.classe_bonus
-                            where a.Id == Mecanique.IDclasse(perso)
-                            select a;
-                
-                long[] tbJoueurBonus = new long[] { Convert.ToInt64(query) };
-                joueur_bonus bonus = new joueur_bonus();
-                for (int i =0; i < tbJoueurBonus.Length;i++)
-                {
-                    Console.Write(tbJoueurBonus[i] + " | ");
-                }
+                 classe
+                c++;
             }
-            catch
+            if (c == 0)
             {
-                
+                //appel de la fonction d'instanciation de joueur bonus d'après l'id de la classe de perso
+                Mecanique.Ins_joueur(perso);
+                //appel de la fonction d'instanciation de joueur cout d'après l'id de la classe de perso
+                Mecanique.Ins_joueur_cout(perso);
             }
+
+
+
+
             Level levelup = new Level()
             {
                 id_joueur = perso.Id,
