@@ -24,18 +24,32 @@ namespace Anima_MJ
             
             try
             {
-               
-                
+                joueur_bonus Kevin = new joueur_bonus();
+                //instanciation de la table joueur-bonus
                 var query = from a in Donnees.Db.classe_bonus
                             where a.Id == Mecanique.IDclasse(perso)
                             select a;
-                
-                long[] tbJoueurBonus = new long[] { Convert.ToInt64(query) };
-                joueur_bonus bonus = new joueur_bonus();
-                for (int i =0; i < tbJoueurBonus.Length;i++)
+                foreach(var a in query)
                 {
-                    Console.Write(tbJoueurBonus[i] + " | ");
+                    Kevin.id_classe = Mecanique.IDclasse(perso);
+                    Kevin.id_joueur = perso.Id;
+                    Kevin.pv = a.pv;
+                    Kevin.initiative = a.initiative;
+                    Kevin.di = a.di;
+                    Kevin.ppp = a.ppp;
+                    Kevin.charac = a.charac;
+                    Kevin.attaque = a.attaque;
+                    Kevin.parade = a.parade;
+                    Kevin.esquive = a.esquive;
+                    Kevin.port_darmure = a.port_darmure;
+                    Kevin.convoquer = a.convoquer;
+                    Kevin.dominer = a.dominer;
+                    Kevin.lier = a.lier;
+                    Kevin.revoquer = a.revoquer;
+                    Kevin.
                 }
+                
+              
             }
             catch
             {
