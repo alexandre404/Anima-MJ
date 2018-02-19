@@ -304,11 +304,11 @@ namespace Anima_MJ
             private int apparence;
             private int xp;
             private int pf;
-            private int di;
-            private int ppp;
-            private int charac;
-            private int characNaturel;
-            private int compNaturel;
+            //private int di;
+            //private int ppp;
+            //private int charac;
+            //private int characNaturel;
+            //private int compNaturel;
 
             public string Joueur { get => joueur; set => joueur = value; }
             public string Nom { get => nom; set => nom = value; }

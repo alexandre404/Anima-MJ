@@ -21,40 +21,27 @@ namespace Anima_MJ
 
         private void FrmNewMenu_Load(object sender, EventArgs e)
         {
-            
-            try
+            int c = 0;
+            Boolean classe = true;
+            var query = from a in Donnees.Db.joueur_cout
+                        where a.id_joueur == perso.Id
+                        select a;
+            foreach (var a in query)
             {
-                joueur_bonus Kevin = new joueur_bonus();
-                //instanciation de la table joueur-bonus
-                var query = from a in Donnees.Db.classe_bonus
-                            where a.Id == Mecanique.IDclasse(perso)
-                            select a;
-                foreach(var a in query)
-                {
-                    Kevin.id_classe = Mecanique.IDclasse(perso);
-                    Kevin.id_joueur = perso.Id;
-                    Kevin.pv = a.pv;
-                    Kevin.initiative = a.initiative;
-                    Kevin.di = a.di;
-                    Kevin.ppp = a.ppp;
-                    Kevin.charac = a.charac;
-                    Kevin.attaque = a.attaque;
-                    Kevin.parade = a.parade;
-                    Kevin.esquive = a.esquive;
-                    Kevin.port_darmure = a.port_darmure;
-                    Kevin.convoquer = a.convoquer;
-                    Kevin.dominer = a.dominer;
-                    Kevin.lier = a.lier;
-                    Kevin.revoquer = a.revoquer;
-                    Kevin.
-                }
-                
-              
+                 classe
+                c++;
             }
-            catch
+            if (c == 0)
             {
-                
+                //appel de la fonction d'instanciation de joueur bonus d'après l'id de la classe de perso
+                Mecanique.Ins_joueur(perso);
+                //appel de la fonction d'instanciation de joueur cout d'après l'id de la classe de perso
+                Mecanique.Ins_joueur_cout(perso);
             }
+
+
+
+
             Level levelup = new Level()
             {
                 id_joueur = perso.Id,
