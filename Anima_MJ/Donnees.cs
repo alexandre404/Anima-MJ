@@ -4,11 +4,13 @@ using System.Xml.Serialization;
 
 namespace Anima_MJ
 {
-  public class Donnees
+    //Création de l'objet entitys, il est dans une classe isolé
+    //car cette ligne rendait inactifs tous code présent dans sa classe.
+    public class Donnees
     {
-        //Création de l'objet entitys, il est dans une classe isolé
-        //car cette ligne rendait inactifs tous code présent dans sa classe.
+      
         public static Animadb Db = new Animadb();
+
     }
 
     public class Data

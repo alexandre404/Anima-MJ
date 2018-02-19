@@ -28,7 +28,7 @@ namespace Anima_MJ
                         select a;
             foreach (var a in query)
             {
-                 classe
+                 
                 c++;
             }
             if (c == 0)
