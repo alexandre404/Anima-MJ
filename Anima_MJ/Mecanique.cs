@@ -11,9 +11,11 @@ namespace Anima_MJ
         //Fonction gerant la valeur du niveaux suivant lors d'un level up
     public static int CalculLevel(Outils.Perso perso)
         {
+            //c est un compteur, qui s'incremente à chaque fois que la commande link applique le select
+            //le take ne fonctionne pas avec le orderby X)
             int c = 0;
             int level = 1;
-            var query = from a in Donnees.Db.Level.Take(1)
+            var query = from a in Donnees.Db.Level
                         where a.id_joueur == perso.Id
                         orderby a.level1 descending
                         select a.level1;
@@ -40,7 +42,8 @@ namespace Anima_MJ
             }
             return level;
         }
-
+        //fonction permettant le calcul de pf selon le level
+        //elle devrait pouvoir être fusionné avec la fonction ci dessus
         public static int CalculPF_level()
         {
             int pf;
@@ -55,14 +58,17 @@ namespace Anima_MJ
             }
             return pf;
         }
-        
+        //fonction permettant de trouver l'id d'une classe via son nom
         public static int IDclasse(Outils.Perso perso)
         {
-            int id;
+            int id = -1;
             var query = from a in Donnees.Db.Classe.Take(1)
                         where a.Nom == perso.Classe
                         select a.Id;
-            id = Convert.ToInt32( query);
+            foreach (var a in query)
+            {
+                id = Convert.ToInt32(query);
+            }
 
 
             return id;
