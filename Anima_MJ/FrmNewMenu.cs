@@ -38,7 +38,7 @@ namespace Anima_MJ
                 c++;
               
             }
-            Console.WriteLine("................................" + c);
+       
             if (c == 0)
             {
                 //appel de la fonction d'instanciation de joueur bonus d'après l'id de la classe de perso

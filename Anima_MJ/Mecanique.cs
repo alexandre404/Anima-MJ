@@ -68,9 +68,8 @@ namespace Anima_MJ
             foreach (var a in query)
             {
                 id = a.Id;
-                Console.WriteLine("....................................Ma classe est : "+perso.Classe + id);
+               
             }
-            Console.WriteLine("....................................Ma classe22 est : " + perso.Classe + id);
 
             return id;
         }
@@ -158,7 +157,7 @@ namespace Anima_MJ
                 Donnees.Db.joueur_bonus.Add(Kevin);
                 Donnees.Db.SaveChanges();
             }
-            Console.WriteLine("....................................Art : " + Kevin.art);
+           
         }
 
         public static void Ins_joueur_cout(Outils.Perso perso)
@@ -171,8 +170,7 @@ namespace Anima_MJ
                         select a;
             foreach (var a in query)
             {
-                try
-                {
+               
                     //identifiants
                     Kevin.id_classe = classe_id;
                     Kevin.id_joueur = (int)perso.Id;
@@ -250,12 +248,8 @@ namespace Anima_MJ
                     Kevin.rituel_calligraphie = a.rituel_calligraphie;
                     Donnees.Db.joueur_cout.Add(Kevin);
                     Donnees.Db.SaveChanges();
-                }
-                catch
-                {
-                    Console.WriteLine("........................................Fail");
-                }
-                Console.WriteLine("....................................Animisme : " + Kevin.animisme);
+               
+               
             }
         }
         public static joueur_bonus Char_joueur_bonus(Outils.Perso perso)

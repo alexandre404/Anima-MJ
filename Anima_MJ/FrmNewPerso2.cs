@@ -90,7 +90,7 @@ namespace Anima_MJ
                 Donnees.Db.Joueur.Add(noob);
                 Donnees.Db.SaveChanges();
                 perso.Id =(int) noob.Id_joueur;
-                Console.WriteLine("...................?.........."+perso.Id);
+         
             }
             catch
             {
