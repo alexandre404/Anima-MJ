@@ -86,48 +86,5 @@ namespace Anima_MJ
         public int alchimie { get; set; }
         public int animisme { get; set; }
         public int rituel_calligraphie { get; set; }
-        public int arme_similaire { get; set; }
-        public int arme_mixte { get; set; }
-        public int arme_distincte_mains_nues { get; set; }
-        public int catégorie_entiere { get; set; }
-        public int projectile { get; set; }
-        public int armes_lancer { get; set; }
-        public int armes_improvisees { get; set; }
-        public int armes_barbares { get; set; }
-        public int armes_chevalier { get; set; }
-        public int arme_gladiateur { get; set; }
-        public int arme_chasseur { get; set; }
-        public int arme_ninja { get; set; }
-        public int arme_assassin { get; set; }
-        public int arme_soldat { get; set; }
-        public int arme_duelliste { get; set; }
-        public int arme_arborigene { get; set; }
-        public int arme_pirate { get; set; }
-        public int arme_brigand { get; set; }
-        public int batto_jutsu { get; set; }
-        public int attaque_circulaire { get; set; }
-        public int tenir_joue { get; set; }
-        public int desarmement { get; set; }
-        public int attaque_enchainees { get; set; }
-        public int maniement_offensif_sort { get; set; }
-        public int maniement_deffensif_sort { get; set; }
-        public int maniement_matrice { get; set; }
-        public int accumulation_projectile { get; set; }
-        public int attaque_supplementaire { get; set; }
-        public int attaque_inhabituelle { get; set; }
-        public int cible_mouvante { get; set; }
-        public int combat_aveugle { get; set; }
-        public int critique_accru { get; set; }
-        public int defense_projectile { get; set; }
-        public int deviation { get; set; }
-        public int tirs_mouvement { get; set; }
-        public int esquive_bouclier { get; set; }
-        public int garde_corp { get; set; }
-        public int mouvement_espace_reduit { get; set; }
-        public int immobilisation_inhabituelle { get; set; }
-        public int reduction_darmure { get; set; }
-        public int deux_arme_style_defensif { get; set; }
-        public int tenue { get; set; }
-        public int cibles_multiples { get; set; }
     }
 }

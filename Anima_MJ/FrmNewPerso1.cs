@@ -165,9 +165,6 @@ namespace Anima_MJ
             }
         }
 
-        private void toolStripSplitButton1_ButtonClick(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

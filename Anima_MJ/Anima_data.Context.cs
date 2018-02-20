@@ -27,12 +27,14 @@ namespace Anima_MJ
     
         public DbSet<Art_martiaux> Art_martiaux { get; set; }
         public DbSet<Classe> Classe { get; set; }
+        public DbSet<classe_bonus> classe_bonus { get; set; }
         public DbSet<classe_cout> classe_cout { get; set; }
         public DbSet<competence> competence { get; set; }
         public DbSet<Dons> Dons { get; set; }
         public DbSet<histo_charac> histo_charac { get; set; }
         public DbSet<Joueur> Joueur { get; set; }
         public DbSet<joueur_actu_> joueur_actu_ { get; set; }
+        public DbSet<joueur_bonus> joueur_bonus { get; set; }
         public DbSet<joueur_cout> joueur_cout { get; set; }
         public DbSet<joueur_depense> joueur_depense { get; set; }
         public DbSet<joueur_temp_> joueur_temp_ { get; set; }
@@ -42,7 +44,5 @@ namespace Anima_MJ
         public DbSet<pouvoir_joueur> pouvoir_joueur { get; set; }
         public DbSet<pouvoir_ki> pouvoir_ki { get; set; }
         public DbSet<temp_charac> temp_charac { get; set; }
-        public DbSet<classe_bonus> classe_bonus { get; set; }
-        public DbSet<joueur_bonus> joueur_bonus { get; set; }
     }
 }
