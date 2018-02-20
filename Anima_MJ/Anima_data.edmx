@@ -24,71 +24,72 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="pv" Type="integer" Nullable="false" />
-          <Property Name="initiative" Type="integer" Nullable="false" />
-          <Property Name="di" Type="integer" Nullable="false" />
-          <Property Name="ppp" Type="integer" Nullable="false" />
-          <Property Name="charac" Type="integer" Nullable="false" />
-          <Property Name="attaque" Type="integer" Nullable="false" />
-          <Property Name="parade" Type="integer" Nullable="false" />
-          <Property Name="esquive" Type="integer" Nullable="false" />
-          <Property Name="port_darmure" Type="integer" Nullable="false" />
-          <Property Name="convoquer" Type="integer" Nullable="false" />
-          <Property Name="dominer" Type="integer" Nullable="false" />
-          <Property Name="lier" Type="integer" Nullable="false" />
-          <Property Name="revoquer" Type="integer" Nullable="false" />
-          <Property Name="zeon" Type="integer" Nullable="false" />
-          <Property Name="comp_nat_classe" Type="integer" Nullable="false" />
-          <Property Name="acrobatie" Type="integer" Nullable="false" />
-          <Property Name="athletisme" Type="integer" Nullable="false" />
-          <Property Name="equitation" Type="integer" Nullable="false" />
-          <Property Name="escalade" Type="integer" Nullable="false" />
-          <Property Name="natation" Type="integer" Nullable="false" />
-          <Property Name="saut" Type="integer" Nullable="false" />
-          <Property Name="impassibilite" Type="integer" Nullable="false" />
-          <Property Name="prouesse" Type="integer" Nullable="false" />
-          <Property Name="resistance" Type="integer" Nullable="false" />
-          <Property Name="observation" Type="integer" Nullable="false" />
-          <Property Name="pistage" Type="integer" Nullable="false" />
-          <Property Name="vigilance" Type="integer" Nullable="false" />
-          <Property Name="animaux" Type="integer" Nullable="false" />
-          <Property Name="estimation" Type="integer" Nullable="false" />
-          <Property Name="evaluation_magique" Type="integer" Nullable="false" />
-          <Property Name="herboristerie" Type="integer" Nullable="false" />
-          <Property Name="histoire" Type="integer" Nullable="false" />
-          <Property Name="medecine" Type="integer" Nullable="false" />
-          <Property Name="memorisation" Type="integer" Nullable="false" />
-          <Property Name="navigation" Type="integer" Nullable="false" />
-          <Property Name="occultisme" Type="integer" Nullable="false" />
-          <Property Name="science" Type="integer" Nullable="false" />
-          <Property Name="loi" Type="integer" Nullable="false" />
-          <Property Name="tactique" Type="integer" Nullable="false" />
-          <Property Name="commandement" Type="integer" Nullable="false" />
-          <Property Name="intimidation" Type="integer" Nullable="false" />
-          <Property Name="persuasion" Type="integer" Nullable="false" />
-          <Property Name="style" Type="integer" Nullable="false" />
-          <Property Name="commerce" Type="integer" Nullable="false" />
-          <Property Name="conn_rue" Type="integer" Nullable="false" />
-          <Property Name="etiquette" Type="integer" Nullable="false" />
-          <Property Name="camouflage" Type="integer" Nullable="false" />
-          <Property Name="crochetage" Type="integer" Nullable="false" />
-          <Property Name="deguisement" Type="integer" Nullable="false" />
-          <Property Name="discretion" Type="integer" Nullable="false" />
-          <Property Name="larcin" Type="integer" Nullable="false" />
-          <Property Name="pieges" Type="integer" Nullable="false" />
-          <Property Name="poison" Type="integer" Nullable="false" />
-          <Property Name="art" Type="integer" Nullable="false" />
-          <Property Name="danse" Type="integer" Nullable="false" />
-          <Property Name="forge" Type="integer" Nullable="false" />
-          <Property Name="habilete" Type="integer" Nullable="false" />
-          <Property Name="musique" Type="integer" Nullable="false" />
-          <Property Name="orfevrerie" Type="integer" Nullable="false" />
-          <Property Name="confection" Type="integer" Nullable="false" />
-          <Property Name="creation_mario" Type="integer" Nullable="false" />
-          <Property Name="runes" Type="integer" Nullable="false" />
-          <Property Name="alchimie" Type="integer" Nullable="false" />
-          <Property Name="animisme" Type="integer" Nullable="false" />
-          <Property Name="rituel_calligraphie" Type="integer" Nullable="false" />
+          <Property Name="pv" Type="int32" Nullable="false" />
+          <Property Name="initiative" Type="int32" Nullable="false" />
+          <Property Name="di" Type="int32" Nullable="false" />
+          <Property Name="ppp" Type="int32" Nullable="false" />
+          <Property Name="charac" Type="int32" Nullable="false" />
+          <Property Name="attaque" Type="int32" Nullable="false" />
+          <Property Name="parade" Type="int32" Nullable="false" />
+          <Property Name="esquive" Type="int32" Nullable="false" />
+          <Property Name="port_darmure" Type="int32" Nullable="false" />
+          <Property Name="convoquer" Type="int32" Nullable="false" />
+          <Property Name="dominer" Type="int32" Nullable="false" />
+          <Property Name="lier" Type="int32" Nullable="false" />
+          <Property Name="revoquer" Type="int32" Nullable="false" />
+          <Property Name="zeon" Type="int32" Nullable="false" />
+          <Property Name="comp_nat_classe" Type="int32" Nullable="false" />
+          <Property Name="acrobatie" Type="int32" Nullable="false" />
+          <Property Name="athletisme" Type="int32" Nullable="false" />
+          <Property Name="equitation" Type="int32" Nullable="false" />
+          <Property Name="escalade" Type="int32" Nullable="false" />
+          <Property Name="natation" Type="int32" Nullable="false" />
+          <Property Name="saut" Type="int32" Nullable="false" />
+          <Property Name="impassibilite" Type="int32" Nullable="false" />
+          <Property Name="prouesse" Type="int32" Nullable="false" />
+          <Property Name="resistance" Type="int32" Nullable="false" />
+          <Property Name="observation" Type="int32" Nullable="false" />
+          <Property Name="pistage" Type="int32" Nullable="false" />
+          <Property Name="vigilance" Type="int32" Nullable="false" />
+          <Property Name="animaux" Type="int32" Nullable="false" />
+          <Property Name="estimation" Type="int32" Nullable="false" />
+          <Property Name="evaluation_magique" Type="int32" Nullable="false" />
+          <Property Name="herboristerie" Type="int32" Nullable="false" />
+          <Property Name="histoire" Type="int32" Nullable="false" />
+          <Property Name="medecine" Type="int32" Nullable="false" />
+          <Property Name="memorisation" Type="int32" Nullable="false" />
+          <Property Name="navigation" Type="int32" Nullable="false" />
+          <Property Name="occultisme" Type="int32" Nullable="false" />
+          <Property Name="science" Type="int32" Nullable="false" />
+          <Property Name="loi" Type="int32" Nullable="false" />
+          <Property Name="tactique" Type="int32" Nullable="false" />
+          <Property Name="commandement" Type="int32" Nullable="false" />
+          <Property Name="intimidation" Type="int32" Nullable="false" />
+          <Property Name="persuasion" Type="int32" Nullable="false" />
+          <Property Name="style" Type="int32" Nullable="false" />
+          <Property Name="commerce" Type="int32" Nullable="false" />
+          <Property Name="conn_rue" Type="int32" Nullable="false" />
+          <Property Name="etiquette" Type="int32" Nullable="false" />
+          <Property Name="camouflage" Type="int32" Nullable="false" />
+          <Property Name="crochetage" Type="int32" Nullable="false" />
+          <Property Name="deguisement" Type="int32" Nullable="false" />
+          <Property Name="discretion" Type="int32" Nullable="false" />
+          <Property Name="larcin" Type="int32" Nullable="false" />
+          <Property Name="pieges" Type="int32" Nullable="false" />
+          <Property Name="poison" Type="int32" Nullable="false" />
+          <Property Name="art" Type="int32" Nullable="false" />
+          <Property Name="danse" Type="int32" Nullable="false" />
+          <Property Name="forge" Type="int32" Nullable="false" />
+          <Property Name="habilete" Type="int32" Nullable="false" />
+          <Property Name="musique" Type="int32" Nullable="false" />
+          <Property Name="orfevrerie" Type="int32" Nullable="false" />
+          <Property Name="confection" Type="int32" Nullable="false" />
+          <Property Name="creation_mario" Type="int32" Nullable="false" />
+          <Property Name="runes" Type="int32" Nullable="false" />
+          <Property Name="alchimie" Type="int32" Nullable="false" />
+          <Property Name="animisme" Type="int32" Nullable="false" />
+          <Property Name="rituel_calligraphie" Type="int32" Nullable="false" />
+          <Property Name="chara_nat" Type="int32" Nullable="false" />
         </EntityType>
         <EntityType Name="classe_cout">
           <Key>
@@ -323,73 +324,74 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="id_classe" Type="integer" Nullable="false" />
-          <Property Name="id_joueur" Type="integer" Nullable="false" />
-          <Property Name="pv" Type="integer" Nullable="false" />
-          <Property Name="initiative" Type="integer" Nullable="false" />
-          <Property Name="di" Type="integer" Nullable="false" />
-          <Property Name="ppp" Type="integer" Nullable="false" />
-          <Property Name="charac" Type="integer" Nullable="false" />
-          <Property Name="attaque" Type="integer" Nullable="false" />
-          <Property Name="parade" Type="integer" Nullable="false" />
-          <Property Name="esquive" Type="integer" Nullable="false" />
-          <Property Name="port_darmure" Type="integer" Nullable="false" />
-          <Property Name="convoquer" Type="integer" Nullable="false" />
-          <Property Name="dominer" Type="integer" Nullable="false" />
-          <Property Name="lier" Type="integer" Nullable="false" />
-          <Property Name="revoquer" Type="integer" Nullable="false" />
-          <Property Name="zeon" Type="integer" Nullable="false" />
-          <Property Name="comp_nat_classe" Type="integer" Nullable="false" />
-          <Property Name="acrobatie" Type="integer" Nullable="false" />
-          <Property Name="athletisme" Type="integer" Nullable="false" />
-          <Property Name="equitation" Type="integer" Nullable="false" />
-          <Property Name="escalade" Type="integer" Nullable="false" />
-          <Property Name="natation" Type="integer" Nullable="false" />
-          <Property Name="saut" Type="integer" Nullable="false" />
-          <Property Name="impassibilite" Type="integer" Nullable="false" />
-          <Property Name="prouesse" Type="integer" Nullable="false" />
-          <Property Name="resistance" Type="integer" Nullable="false" />
-          <Property Name="observation" Type="integer" Nullable="false" />
-          <Property Name="pistage" Type="integer" Nullable="false" />
-          <Property Name="vigilance" Type="integer" Nullable="false" />
-          <Property Name="animaux" Type="integer" Nullable="false" />
-          <Property Name="estimation" Type="integer" Nullable="false" />
-          <Property Name="evaluation_magique" Type="integer" Nullable="false" />
-          <Property Name="herboristerie" Type="integer" Nullable="false" />
-          <Property Name="histoire" Type="integer" Nullable="false" />
-          <Property Name="medecine" Type="integer" Nullable="false" />
-          <Property Name="memorisation" Type="integer" Nullable="false" />
-          <Property Name="navigation" Type="integer" Nullable="false" />
-          <Property Name="occultisme" Type="integer" Nullable="false" />
-          <Property Name="science" Type="integer" Nullable="false" />
-          <Property Name="loi" Type="integer" Nullable="false" />
-          <Property Name="tactique" Type="integer" Nullable="false" />
-          <Property Name="commandement" Type="integer" Nullable="false" />
-          <Property Name="intimidation" Type="integer" Nullable="false" />
-          <Property Name="persuasion" Type="integer" Nullable="false" />
-          <Property Name="style" Type="integer" Nullable="false" />
-          <Property Name="commerce" Type="integer" Nullable="false" />
-          <Property Name="conn_rue" Type="integer" Nullable="false" />
-          <Property Name="etiquette" Type="integer" Nullable="false" />
-          <Property Name="camouflage" Type="integer" Nullable="false" />
-          <Property Name="crochetage" Type="integer" Nullable="false" />
-          <Property Name="deguisement" Type="integer" Nullable="false" />
-          <Property Name="discretion" Type="integer" Nullable="false" />
-          <Property Name="larcin" Type="integer" Nullable="false" />
-          <Property Name="pieges" Type="integer" Nullable="false" />
-          <Property Name="poison" Type="integer" Nullable="false" />
-          <Property Name="art" Type="integer" Nullable="false" />
-          <Property Name="danse" Type="integer" Nullable="false" />
-          <Property Name="forge" Type="integer" Nullable="false" />
-          <Property Name="habilete" Type="integer" Nullable="false" />
-          <Property Name="musique" Type="integer" Nullable="false" />
-          <Property Name="orfevrerie" Type="integer" Nullable="false" />
-          <Property Name="confection" Type="integer" Nullable="false" />
-          <Property Name="creation_mario" Type="integer" Nullable="false" />
-          <Property Name="runes" Type="integer" Nullable="false" />
-          <Property Name="alchimie" Type="integer" Nullable="false" />
-          <Property Name="animisme" Type="integer" Nullable="false" />
-          <Property Name="rituel_calligraphie" Type="integer" Nullable="false" />
+          <Property Name="id_classe" Type="int32" Nullable="false" />
+          <Property Name="id_joueur" Type="int32" Nullable="false" />
+          <Property Name="pv" Type="int32" Nullable="false" />
+          <Property Name="initiative" Type="int32" Nullable="false" />
+          <Property Name="di" Type="int32" Nullable="false" />
+          <Property Name="ppp" Type="int32" Nullable="false" />
+          <Property Name="charac" Type="int32" Nullable="false" />
+          <Property Name="attaque" Type="int32" Nullable="false" />
+          <Property Name="parade" Type="int32" Nullable="false" />
+          <Property Name="esquive" Type="int32" Nullable="false" />
+          <Property Name="port_darmure" Type="int32" Nullable="false" />
+          <Property Name="convoquer" Type="int32" Nullable="false" />
+          <Property Name="dominer" Type="int32" Nullable="false" />
+          <Property Name="lier" Type="int32" Nullable="false" />
+          <Property Name="revoquer" Type="int32" Nullable="false" />
+          <Property Name="zeon" Type="int32" Nullable="false" />
+          <Property Name="comp_nat_classe" Type="int32" Nullable="false" />
+          <Property Name="acrobatie" Type="int32" Nullable="false" />
+          <Property Name="athletisme" Type="int32" Nullable="false" />
+          <Property Name="equitation" Type="int32" Nullable="false" />
+          <Property Name="escalade" Type="int32" Nullable="false" />
+          <Property Name="natation" Type="int32" Nullable="false" />
+          <Property Name="saut" Type="int32" Nullable="false" />
+          <Property Name="impassibilite" Type="int32" Nullable="false" />
+          <Property Name="prouesse" Type="int32" Nullable="false" />
+          <Property Name="resistance" Type="int32" Nullable="false" />
+          <Property Name="observation" Type="int32" Nullable="false" />
+          <Property Name="pistage" Type="int32" Nullable="false" />
+          <Property Name="vigilance" Type="int32" Nullable="false" />
+          <Property Name="animaux" Type="int32" Nullable="false" />
+          <Property Name="estimation" Type="int32" Nullable="false" />
+          <Property Name="evaluation_magique" Type="int32" Nullable="false" />
+          <Property Name="herboristerie" Type="int32" Nullable="false" />
+          <Property Name="histoire" Type="int32" Nullable="false" />
+          <Property Name="medecine" Type="int32" Nullable="false" />
+          <Property Name="memorisation" Type="int32" Nullable="false" />
+          <Property Name="navigation" Type="int32" Nullable="false" />
+          <Property Name="occultisme" Type="int32" Nullable="false" />
+          <Property Name="science" Type="int32" Nullable="false" />
+          <Property Name="loi" Type="int32" Nullable="false" />
+          <Property Name="tactique" Type="int32" Nullable="false" />
+          <Property Name="commandement" Type="int32" Nullable="false" />
+          <Property Name="intimidation" Type="int32" Nullable="false" />
+          <Property Name="persuasion" Type="int32" Nullable="false" />
+          <Property Name="style" Type="int32" Nullable="false" />
+          <Property Name="commerce" Type="int32" Nullable="false" />
+          <Property Name="conn_rue" Type="int32" Nullable="false" />
+          <Property Name="etiquette" Type="int32" Nullable="false" />
+          <Property Name="camouflage" Type="int32" Nullable="false" />
+          <Property Name="crochetage" Type="int32" Nullable="false" />
+          <Property Name="deguisement" Type="int32" Nullable="false" />
+          <Property Name="discretion" Type="int32" Nullable="false" />
+          <Property Name="larcin" Type="int32" Nullable="false" />
+          <Property Name="pieges" Type="int32" Nullable="false" />
+          <Property Name="poison" Type="int32" Nullable="false" />
+          <Property Name="art" Type="int32" Nullable="false" />
+          <Property Name="danse" Type="int32" Nullable="false" />
+          <Property Name="forge" Type="int32" Nullable="false" />
+          <Property Name="habilete" Type="int32" Nullable="false" />
+          <Property Name="musique" Type="int32" Nullable="false" />
+          <Property Name="orfevrerie" Type="int32" Nullable="false" />
+          <Property Name="confection" Type="int32" Nullable="false" />
+          <Property Name="creation_mario" Type="int32" Nullable="false" />
+          <Property Name="runes" Type="int32" Nullable="false" />
+          <Property Name="alchimie" Type="int32" Nullable="false" />
+          <Property Name="animisme" Type="int32" Nullable="false" />
+          <Property Name="rituel_calligraphie" Type="int32" Nullable="false" />
+          <Property Name="chara_nat" Type="int32" Nullable="false" />
         </EntityType>
         <EntityType Name="joueur_cout">
           <Key>
@@ -874,11 +876,15 @@
         <EntityContainer Name="Animadb" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Art_martiaux" EntityType="mainModel.Art_martiaux" />
           <EntitySet Name="Classe" EntityType="mainModel.Classe" />
+          <EntitySet Name="classe_bonus" EntityType="mainModel.classe_bonus" />
           <EntitySet Name="classe_cout" EntityType="mainModel.classe_cout" />
           <EntitySet Name="competence" EntityType="mainModel.competence" />
           <EntitySet Name="Dons" EntityType="mainModel.Dons" />
           <EntitySet Name="histo_charac" EntityType="mainModel.histo_charac" />
+          <EntitySet Name="Joueur" EntityType="mainModel.Joueur" />
           <EntitySet Name="joueur_actu_" EntityType="mainModel.joueur_actu_" />
+          <EntitySet Name="joueur_bonus" EntityType="mainModel.joueur_bonus" />
+          <EntitySet Name="joueur_cout" EntityType="mainModel.joueur_cout" />
           <EntitySet Name="joueur_depense" EntityType="mainModel.joueur_depense" />
           <EntitySet Name="joueur_temp_" EntityType="mainModel.joueur_temp_" />
           <EntitySet Name="Level" EntityType="mainModel.Level" />
@@ -887,10 +893,6 @@
           <EntitySet Name="pouvoir_joueur" EntityType="mainModel.pouvoir_joueur" />
           <EntitySet Name="pouvoir_ki" EntityType="mainModel.pouvoir_ki" />
           <EntitySet Name="temp_charac" EntityType="mainModel.temp_charac" />
-          <EntitySet Name="classe_bonus" EntityType="mainModel.classe_bonus" />
-          <EntitySet Name="joueur_bonus" EntityType="mainModel.joueur_bonus" />
-          <EntitySet Name="joueur_cout" EntityType="mainModel.joueur_cout" />
-          <EntitySet Name="Joueur" EntityType="mainModel.Joueur" />
         </EntityContainer>
         <EntityType Name="Art_martiaux">
           <Key>
@@ -905,6 +907,78 @@
           </Key>
           <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nom" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="classe_bonus">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="pv" Type="Int32" Nullable="false" />
+          <Property Name="initiative" Type="Int32" Nullable="false" />
+          <Property Name="di" Type="Int32" Nullable="false" />
+          <Property Name="ppp" Type="Int32" Nullable="false" />
+          <Property Name="charac" Type="Int32" Nullable="false" />
+          <Property Name="attaque" Type="Int32" Nullable="false" />
+          <Property Name="parade" Type="Int32" Nullable="false" />
+          <Property Name="esquive" Type="Int32" Nullable="false" />
+          <Property Name="port_darmure" Type="Int32" Nullable="false" />
+          <Property Name="convoquer" Type="Int32" Nullable="false" />
+          <Property Name="dominer" Type="Int32" Nullable="false" />
+          <Property Name="lier" Type="Int32" Nullable="false" />
+          <Property Name="revoquer" Type="Int32" Nullable="false" />
+          <Property Name="zeon" Type="Int32" Nullable="false" />
+          <Property Name="comp_nat_classe" Type="Int32" Nullable="false" />
+          <Property Name="acrobatie" Type="Int32" Nullable="false" />
+          <Property Name="athletisme" Type="Int32" Nullable="false" />
+          <Property Name="equitation" Type="Int32" Nullable="false" />
+          <Property Name="escalade" Type="Int32" Nullable="false" />
+          <Property Name="natation" Type="Int32" Nullable="false" />
+          <Property Name="saut" Type="Int32" Nullable="false" />
+          <Property Name="impassibilite" Type="Int32" Nullable="false" />
+          <Property Name="prouesse" Type="Int32" Nullable="false" />
+          <Property Name="resistance" Type="Int32" Nullable="false" />
+          <Property Name="observation" Type="Int32" Nullable="false" />
+          <Property Name="pistage" Type="Int32" Nullable="false" />
+          <Property Name="vigilance" Type="Int32" Nullable="false" />
+          <Property Name="animaux" Type="Int32" Nullable="false" />
+          <Property Name="estimation" Type="Int32" Nullable="false" />
+          <Property Name="evaluation_magique" Type="Int32" Nullable="false" />
+          <Property Name="herboristerie" Type="Int32" Nullable="false" />
+          <Property Name="histoire" Type="Int32" Nullable="false" />
+          <Property Name="medecine" Type="Int32" Nullable="false" />
+          <Property Name="memorisation" Type="Int32" Nullable="false" />
+          <Property Name="navigation" Type="Int32" Nullable="false" />
+          <Property Name="occultisme" Type="Int32" Nullable="false" />
+          <Property Name="science" Type="Int32" Nullable="false" />
+          <Property Name="loi" Type="Int32" Nullable="false" />
+          <Property Name="tactique" Type="Int32" Nullable="false" />
+          <Property Name="commandement" Type="Int32" Nullable="false" />
+          <Property Name="intimidation" Type="Int32" Nullable="false" />
+          <Property Name="persuasion" Type="Int32" Nullable="false" />
+          <Property Name="style" Type="Int32" Nullable="false" />
+          <Property Name="commerce" Type="Int32" Nullable="false" />
+          <Property Name="conn_rue" Type="Int32" Nullable="false" />
+          <Property Name="etiquette" Type="Int32" Nullable="false" />
+          <Property Name="camouflage" Type="Int32" Nullable="false" />
+          <Property Name="crochetage" Type="Int32" Nullable="false" />
+          <Property Name="deguisement" Type="Int32" Nullable="false" />
+          <Property Name="discretion" Type="Int32" Nullable="false" />
+          <Property Name="larcin" Type="Int32" Nullable="false" />
+          <Property Name="pieges" Type="Int32" Nullable="false" />
+          <Property Name="poison" Type="Int32" Nullable="false" />
+          <Property Name="art" Type="Int32" Nullable="false" />
+          <Property Name="danse" Type="Int32" Nullable="false" />
+          <Property Name="forge" Type="Int32" Nullable="false" />
+          <Property Name="habilete" Type="Int32" Nullable="false" />
+          <Property Name="musique" Type="Int32" Nullable="false" />
+          <Property Name="orfevrerie" Type="Int32" Nullable="false" />
+          <Property Name="confection" Type="Int32" Nullable="false" />
+          <Property Name="creation_mario" Type="Int32" Nullable="false" />
+          <Property Name="runes" Type="Int32" Nullable="false" />
+          <Property Name="alchimie" Type="Int32" Nullable="false" />
+          <Property Name="animisme" Type="Int32" Nullable="false" />
+          <Property Name="rituel_calligraphie" Type="Int32" Nullable="false" />
+          <Property Name="chara_nat" Type="Int32" Nullable="false" />
         </EntityType>
         <EntityType Name="classe_cout">
           <Key>
@@ -1018,6 +1092,33 @@
           <Property Name="pou" Type="Int32" Nullable="false" />
           <Property Name="vol" Type="Int32" Nullable="false" />
         </EntityType>
+        <EntityType Name="Joueur">
+          <Key>
+            <PropertyRef Name="Id_joueur" />
+          </Key>
+          <Property Name="Id_joueur" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Pseudo_Joueur" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nom" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Prenom" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Classe_level_0" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Sexe" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Origine" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Classe_social" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+          <Property Name="Apparence" Type="Int32" Nullable="false" />
+          <Property Name="Poid" Type="Int32" Nullable="false" />
+          <Property Name="Hauteur" Type="Int32" Nullable="false" />
+          <Property Name="Taille" Type="Int32" Nullable="false" />
+          <Property Name="base_for" Type="Int32" Nullable="false" />
+          <Property Name="base_agi" Type="Int32" Nullable="false" />
+          <Property Name="base_dex" Type="Int32" Nullable="false" />
+          <Property Name="base_con" Type="Int32" Nullable="false" />
+          <Property Name="base_int" Type="Int32" Nullable="false" />
+          <Property Name="base_per" Type="Int32" Nullable="false" />
+          <Property Name="base_pou" Type="Int32" Nullable="false" />
+          <Property Name="base_vol" Type="Int32" Nullable="false" />
+          <Property Name="total_xp" Type="Int32" Nullable="false" />
+        </EntityType>
         <EntityType Name="joueur_actu_">
           <Key>
             <PropertyRef Name="Id" />
@@ -1053,6 +1154,157 @@
           <Property Name="revoquer" Type="Int32" Nullable="false" />
           <Property Name="ppp" Type="Int32" Nullable="false" />
           <Property Name="talent_psy" Type="Int32" Nullable="false" />
+          <Property Name="projection_psychique" Type="Int32" Nullable="false" />
+          <Property Name="voie_magique" Type="Int32" Nullable="false" />
+          <Property Name="multi_zeon_regen" Type="Int32" Nullable="false" />
+          <Property Name="acrobatie" Type="Int32" Nullable="false" />
+          <Property Name="athletisme" Type="Int32" Nullable="false" />
+          <Property Name="equitation" Type="Int32" Nullable="false" />
+          <Property Name="escalade" Type="Int32" Nullable="false" />
+          <Property Name="natation" Type="Int32" Nullable="false" />
+          <Property Name="saut" Type="Int32" Nullable="false" />
+          <Property Name="impassibilite" Type="Int32" Nullable="false" />
+          <Property Name="prouesse" Type="Int32" Nullable="false" />
+          <Property Name="resistance" Type="Int32" Nullable="false" />
+          <Property Name="observation" Type="Int32" Nullable="false" />
+          <Property Name="pistage" Type="Int32" Nullable="false" />
+          <Property Name="vigilance" Type="Int32" Nullable="false" />
+          <Property Name="animaux" Type="Int32" Nullable="false" />
+          <Property Name="estimation" Type="Int32" Nullable="false" />
+          <Property Name="evaluation_magique" Type="Int32" Nullable="false" />
+          <Property Name="herboristerie" Type="Int32" Nullable="false" />
+          <Property Name="histoire" Type="Int32" Nullable="false" />
+          <Property Name="medecine" Type="Int32" Nullable="false" />
+          <Property Name="memorisation" Type="Int32" Nullable="false" />
+          <Property Name="navigation" Type="Int32" Nullable="false" />
+          <Property Name="occultisme" Type="Int32" Nullable="false" />
+          <Property Name="science" Type="Int32" Nullable="false" />
+          <Property Name="loi" Type="Int32" Nullable="false" />
+          <Property Name="tactique" Type="Int32" Nullable="false" />
+          <Property Name="commandement" Type="Int32" Nullable="false" />
+          <Property Name="intimidation" Type="Int32" Nullable="false" />
+          <Property Name="persuasion" Type="Int32" Nullable="false" />
+          <Property Name="style" Type="Int32" Nullable="false" />
+          <Property Name="commerce" Type="Int32" Nullable="false" />
+          <Property Name="conn_rue" Type="Int32" Nullable="false" />
+          <Property Name="etiquette" Type="Int32" Nullable="false" />
+          <Property Name="camouflage" Type="Int32" Nullable="false" />
+          <Property Name="crochetage" Type="Int32" Nullable="false" />
+          <Property Name="deguisement" Type="Int32" Nullable="false" />
+          <Property Name="discretion" Type="Int32" Nullable="false" />
+          <Property Name="larcin" Type="Int32" Nullable="false" />
+          <Property Name="pieges" Type="Int32" Nullable="false" />
+          <Property Name="poison" Type="Int32" Nullable="false" />
+          <Property Name="art" Type="Int32" Nullable="false" />
+          <Property Name="danse" Type="Int32" Nullable="false" />
+          <Property Name="forge" Type="Int32" Nullable="false" />
+          <Property Name="habilete" Type="Int32" Nullable="false" />
+          <Property Name="musique" Type="Int32" Nullable="false" />
+          <Property Name="orfevrerie" Type="Int32" Nullable="false" />
+          <Property Name="confection" Type="Int32" Nullable="false" />
+          <Property Name="creation_mario" Type="Int32" Nullable="false" />
+          <Property Name="runes" Type="Int32" Nullable="false" />
+          <Property Name="alchimie" Type="Int32" Nullable="false" />
+          <Property Name="animisme" Type="Int32" Nullable="false" />
+          <Property Name="rituel_calligraphie" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="joueur_bonus">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_classe" Type="Int32" Nullable="false" />
+          <Property Name="id_joueur" Type="Int32" Nullable="false" />
+          <Property Name="pv" Type="Int32" Nullable="false" />
+          <Property Name="initiative" Type="Int32" Nullable="false" />
+          <Property Name="di" Type="Int32" Nullable="false" />
+          <Property Name="ppp" Type="Int32" Nullable="false" />
+          <Property Name="charac" Type="Int32" Nullable="false" />
+          <Property Name="attaque" Type="Int32" Nullable="false" />
+          <Property Name="parade" Type="Int32" Nullable="false" />
+          <Property Name="esquive" Type="Int32" Nullable="false" />
+          <Property Name="port_darmure" Type="Int32" Nullable="false" />
+          <Property Name="convoquer" Type="Int32" Nullable="false" />
+          <Property Name="dominer" Type="Int32" Nullable="false" />
+          <Property Name="lier" Type="Int32" Nullable="false" />
+          <Property Name="revoquer" Type="Int32" Nullable="false" />
+          <Property Name="zeon" Type="Int32" Nullable="false" />
+          <Property Name="comp_nat_classe" Type="Int32" Nullable="false" />
+          <Property Name="acrobatie" Type="Int32" Nullable="false" />
+          <Property Name="athletisme" Type="Int32" Nullable="false" />
+          <Property Name="equitation" Type="Int32" Nullable="false" />
+          <Property Name="escalade" Type="Int32" Nullable="false" />
+          <Property Name="natation" Type="Int32" Nullable="false" />
+          <Property Name="saut" Type="Int32" Nullable="false" />
+          <Property Name="impassibilite" Type="Int32" Nullable="false" />
+          <Property Name="prouesse" Type="Int32" Nullable="false" />
+          <Property Name="resistance" Type="Int32" Nullable="false" />
+          <Property Name="observation" Type="Int32" Nullable="false" />
+          <Property Name="pistage" Type="Int32" Nullable="false" />
+          <Property Name="vigilance" Type="Int32" Nullable="false" />
+          <Property Name="animaux" Type="Int32" Nullable="false" />
+          <Property Name="estimation" Type="Int32" Nullable="false" />
+          <Property Name="evaluation_magique" Type="Int32" Nullable="false" />
+          <Property Name="herboristerie" Type="Int32" Nullable="false" />
+          <Property Name="histoire" Type="Int32" Nullable="false" />
+          <Property Name="medecine" Type="Int32" Nullable="false" />
+          <Property Name="memorisation" Type="Int32" Nullable="false" />
+          <Property Name="navigation" Type="Int32" Nullable="false" />
+          <Property Name="occultisme" Type="Int32" Nullable="false" />
+          <Property Name="science" Type="Int32" Nullable="false" />
+          <Property Name="loi" Type="Int32" Nullable="false" />
+          <Property Name="tactique" Type="Int32" Nullable="false" />
+          <Property Name="commandement" Type="Int32" Nullable="false" />
+          <Property Name="intimidation" Type="Int32" Nullable="false" />
+          <Property Name="persuasion" Type="Int32" Nullable="false" />
+          <Property Name="style" Type="Int32" Nullable="false" />
+          <Property Name="commerce" Type="Int32" Nullable="false" />
+          <Property Name="conn_rue" Type="Int32" Nullable="false" />
+          <Property Name="etiquette" Type="Int32" Nullable="false" />
+          <Property Name="camouflage" Type="Int32" Nullable="false" />
+          <Property Name="crochetage" Type="Int32" Nullable="false" />
+          <Property Name="deguisement" Type="Int32" Nullable="false" />
+          <Property Name="discretion" Type="Int32" Nullable="false" />
+          <Property Name="larcin" Type="Int32" Nullable="false" />
+          <Property Name="pieges" Type="Int32" Nullable="false" />
+          <Property Name="poison" Type="Int32" Nullable="false" />
+          <Property Name="art" Type="Int32" Nullable="false" />
+          <Property Name="danse" Type="Int32" Nullable="false" />
+          <Property Name="forge" Type="Int32" Nullable="false" />
+          <Property Name="habilete" Type="Int32" Nullable="false" />
+          <Property Name="musique" Type="Int32" Nullable="false" />
+          <Property Name="orfevrerie" Type="Int32" Nullable="false" />
+          <Property Name="confection" Type="Int32" Nullable="false" />
+          <Property Name="creation_mario" Type="Int32" Nullable="false" />
+          <Property Name="runes" Type="Int32" Nullable="false" />
+          <Property Name="alchimie" Type="Int32" Nullable="false" />
+          <Property Name="animisme" Type="Int32" Nullable="false" />
+          <Property Name="rituel_calligraphie" Type="Int32" Nullable="false" />
+          <Property Name="chara_nat" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="joueur_cout">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_classe" Type="Int32" Nullable="false" />
+          <Property Name="id_joueur" Type="Int32" Nullable="false" />
+          <Property Name="multi_pv" Type="Int32" Nullable="false" />
+          <Property Name="attaque" Type="Int32" Nullable="false" />
+          <Property Name="parade" Type="Int32" Nullable="false" />
+          <Property Name="esquive" Type="Int32" Nullable="false" />
+          <Property Name="port_darmure" Type="Int32" Nullable="false" />
+          <Property Name="di" Type="Int32" Nullable="false" />
+          <Property Name="ki" Type="Int32" Nullable="false" />
+          <Property Name="accumulation_ki" Type="Int32" Nullable="false" />
+          <Property Name="zeon" Type="Int32" Nullable="false" />
+          <Property Name="multi_amr" Type="Int32" Nullable="false" />
+          <Property Name="projection_magique" Type="Int32" Nullable="false" />
+          <Property Name="convoquer" Type="Int32" Nullable="false" />
+          <Property Name="dominer" Type="Int32" Nullable="false" />
+          <Property Name="lier" Type="Int32" Nullable="false" />
+          <Property Name="revoquer" Type="Int32" Nullable="false" />
+          <Property Name="ppp" Type="Int32" Nullable="false" />
           <Property Name="projection_psychique" Type="Int32" Nullable="false" />
           <Property Name="voie_magique" Type="Int32" Nullable="false" />
           <Property Name="multi_zeon_regen" Type="Int32" Nullable="false" />
@@ -1485,254 +1737,6 @@
           <Property Name="pou" Type="Int32" Nullable="false" />
           <Property Name="vol" Type="Int32" Nullable="false" />
         </EntityType>
-        <EntityType Name="classe_bonus">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="pv" Type="Int64" Nullable="false" />
-          <Property Name="initiative" Type="Int64" Nullable="false" />
-          <Property Name="di" Type="Int64" Nullable="false" />
-          <Property Name="ppp" Type="Int64" Nullable="false" />
-          <Property Name="charac" Type="Int64" Nullable="false" />
-          <Property Name="attaque" Type="Int64" Nullable="false" />
-          <Property Name="parade" Type="Int64" Nullable="false" />
-          <Property Name="esquive" Type="Int64" Nullable="false" />
-          <Property Name="port_darmure" Type="Int64" Nullable="false" />
-          <Property Name="convoquer" Type="Int64" Nullable="false" />
-          <Property Name="dominer" Type="Int64" Nullable="false" />
-          <Property Name="lier" Type="Int64" Nullable="false" />
-          <Property Name="revoquer" Type="Int64" Nullable="false" />
-          <Property Name="zeon" Type="Int64" Nullable="false" />
-          <Property Name="comp_nat_classe" Type="Int64" Nullable="false" />
-          <Property Name="acrobatie" Type="Int64" Nullable="false" />
-          <Property Name="athletisme" Type="Int64" Nullable="false" />
-          <Property Name="equitation" Type="Int64" Nullable="false" />
-          <Property Name="escalade" Type="Int64" Nullable="false" />
-          <Property Name="natation" Type="Int64" Nullable="false" />
-          <Property Name="saut" Type="Int64" Nullable="false" />
-          <Property Name="impassibilite" Type="Int64" Nullable="false" />
-          <Property Name="prouesse" Type="Int64" Nullable="false" />
-          <Property Name="resistance" Type="Int64" Nullable="false" />
-          <Property Name="observation" Type="Int64" Nullable="false" />
-          <Property Name="pistage" Type="Int64" Nullable="false" />
-          <Property Name="vigilance" Type="Int64" Nullable="false" />
-          <Property Name="animaux" Type="Int64" Nullable="false" />
-          <Property Name="estimation" Type="Int64" Nullable="false" />
-          <Property Name="evaluation_magique" Type="Int64" Nullable="false" />
-          <Property Name="herboristerie" Type="Int64" Nullable="false" />
-          <Property Name="histoire" Type="Int64" Nullable="false" />
-          <Property Name="medecine" Type="Int64" Nullable="false" />
-          <Property Name="memorisation" Type="Int64" Nullable="false" />
-          <Property Name="navigation" Type="Int64" Nullable="false" />
-          <Property Name="occultisme" Type="Int64" Nullable="false" />
-          <Property Name="science" Type="Int64" Nullable="false" />
-          <Property Name="loi" Type="Int64" Nullable="false" />
-          <Property Name="tactique" Type="Int64" Nullable="false" />
-          <Property Name="commandement" Type="Int64" Nullable="false" />
-          <Property Name="intimidation" Type="Int64" Nullable="false" />
-          <Property Name="persuasion" Type="Int64" Nullable="false" />
-          <Property Name="style" Type="Int64" Nullable="false" />
-          <Property Name="commerce" Type="Int64" Nullable="false" />
-          <Property Name="conn_rue" Type="Int64" Nullable="false" />
-          <Property Name="etiquette" Type="Int64" Nullable="false" />
-          <Property Name="camouflage" Type="Int64" Nullable="false" />
-          <Property Name="crochetage" Type="Int64" Nullable="false" />
-          <Property Name="deguisement" Type="Int64" Nullable="false" />
-          <Property Name="discretion" Type="Int64" Nullable="false" />
-          <Property Name="larcin" Type="Int64" Nullable="false" />
-          <Property Name="pieges" Type="Int64" Nullable="false" />
-          <Property Name="poison" Type="Int64" Nullable="false" />
-          <Property Name="art" Type="Int64" Nullable="false" />
-          <Property Name="danse" Type="Int64" Nullable="false" />
-          <Property Name="forge" Type="Int64" Nullable="false" />
-          <Property Name="habilete" Type="Int64" Nullable="false" />
-          <Property Name="musique" Type="Int64" Nullable="false" />
-          <Property Name="orfevrerie" Type="Int64" Nullable="false" />
-          <Property Name="confection" Type="Int64" Nullable="false" />
-          <Property Name="creation_mario" Type="Int64" Nullable="false" />
-          <Property Name="runes" Type="Int64" Nullable="false" />
-          <Property Name="alchimie" Type="Int64" Nullable="false" />
-          <Property Name="animisme" Type="Int64" Nullable="false" />
-          <Property Name="rituel_calligraphie" Type="Int64" Nullable="false" />
-        </EntityType>
-        <EntityType Name="joueur_bonus">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="id_classe" Type="Int64" Nullable="false" />
-          <Property Name="id_joueur" Type="Int64" Nullable="false" />
-          <Property Name="pv" Type="Int64" Nullable="false" />
-          <Property Name="initiative" Type="Int64" Nullable="false" />
-          <Property Name="di" Type="Int64" Nullable="false" />
-          <Property Name="ppp" Type="Int64" Nullable="false" />
-          <Property Name="charac" Type="Int64" Nullable="false" />
-          <Property Name="attaque" Type="Int64" Nullable="false" />
-          <Property Name="parade" Type="Int64" Nullable="false" />
-          <Property Name="esquive" Type="Int64" Nullable="false" />
-          <Property Name="port_darmure" Type="Int64" Nullable="false" />
-          <Property Name="convoquer" Type="Int64" Nullable="false" />
-          <Property Name="dominer" Type="Int64" Nullable="false" />
-          <Property Name="lier" Type="Int64" Nullable="false" />
-          <Property Name="revoquer" Type="Int64" Nullable="false" />
-          <Property Name="zeon" Type="Int64" Nullable="false" />
-          <Property Name="comp_nat_classe" Type="Int64" Nullable="false" />
-          <Property Name="acrobatie" Type="Int64" Nullable="false" />
-          <Property Name="athletisme" Type="Int64" Nullable="false" />
-          <Property Name="equitation" Type="Int64" Nullable="false" />
-          <Property Name="escalade" Type="Int64" Nullable="false" />
-          <Property Name="natation" Type="Int64" Nullable="false" />
-          <Property Name="saut" Type="Int64" Nullable="false" />
-          <Property Name="impassibilite" Type="Int64" Nullable="false" />
-          <Property Name="prouesse" Type="Int64" Nullable="false" />
-          <Property Name="resistance" Type="Int64" Nullable="false" />
-          <Property Name="observation" Type="Int64" Nullable="false" />
-          <Property Name="pistage" Type="Int64" Nullable="false" />
-          <Property Name="vigilance" Type="Int64" Nullable="false" />
-          <Property Name="animaux" Type="Int64" Nullable="false" />
-          <Property Name="estimation" Type="Int64" Nullable="false" />
-          <Property Name="evaluation_magique" Type="Int64" Nullable="false" />
-          <Property Name="herboristerie" Type="Int64" Nullable="false" />
-          <Property Name="histoire" Type="Int64" Nullable="false" />
-          <Property Name="medecine" Type="Int64" Nullable="false" />
-          <Property Name="memorisation" Type="Int64" Nullable="false" />
-          <Property Name="navigation" Type="Int64" Nullable="false" />
-          <Property Name="occultisme" Type="Int64" Nullable="false" />
-          <Property Name="science" Type="Int64" Nullable="false" />
-          <Property Name="loi" Type="Int64" Nullable="false" />
-          <Property Name="tactique" Type="Int64" Nullable="false" />
-          <Property Name="commandement" Type="Int64" Nullable="false" />
-          <Property Name="intimidation" Type="Int64" Nullable="false" />
-          <Property Name="persuasion" Type="Int64" Nullable="false" />
-          <Property Name="style" Type="Int64" Nullable="false" />
-          <Property Name="commerce" Type="Int64" Nullable="false" />
-          <Property Name="conn_rue" Type="Int64" Nullable="false" />
-          <Property Name="etiquette" Type="Int64" Nullable="false" />
-          <Property Name="camouflage" Type="Int64" Nullable="false" />
-          <Property Name="crochetage" Type="Int64" Nullable="false" />
-          <Property Name="deguisement" Type="Int64" Nullable="false" />
-          <Property Name="discretion" Type="Int64" Nullable="false" />
-          <Property Name="larcin" Type="Int64" Nullable="false" />
-          <Property Name="pieges" Type="Int64" Nullable="false" />
-          <Property Name="poison" Type="Int64" Nullable="false" />
-          <Property Name="art" Type="Int64" Nullable="false" />
-          <Property Name="danse" Type="Int64" Nullable="false" />
-          <Property Name="forge" Type="Int64" Nullable="false" />
-          <Property Name="habilete" Type="Int64" Nullable="false" />
-          <Property Name="musique" Type="Int64" Nullable="false" />
-          <Property Name="orfevrerie" Type="Int64" Nullable="false" />
-          <Property Name="confection" Type="Int64" Nullable="false" />
-          <Property Name="creation_mario" Type="Int64" Nullable="false" />
-          <Property Name="runes" Type="Int64" Nullable="false" />
-          <Property Name="alchimie" Type="Int64" Nullable="false" />
-          <Property Name="animisme" Type="Int64" Nullable="false" />
-          <Property Name="rituel_calligraphie" Type="Int64" Nullable="false" />
-        </EntityType>
-        <EntityType Name="joueur_cout">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="id_classe" Type="Int32" Nullable="false" />
-          <Property Name="id_joueur" Type="Int32" Nullable="false" />
-          <Property Name="multi_pv" Type="Int32" Nullable="false" />
-          <Property Name="attaque" Type="Int32" Nullable="false" />
-          <Property Name="parade" Type="Int32" Nullable="false" />
-          <Property Name="esquive" Type="Int32" Nullable="false" />
-          <Property Name="port_darmure" Type="Int32" Nullable="false" />
-          <Property Name="di" Type="Int32" Nullable="false" />
-          <Property Name="ki" Type="Int32" Nullable="false" />
-          <Property Name="accumulation_ki" Type="Int32" Nullable="false" />
-          <Property Name="zeon" Type="Int32" Nullable="false" />
-          <Property Name="multi_amr" Type="Int32" Nullable="false" />
-          <Property Name="projection_magique" Type="Int32" Nullable="false" />
-          <Property Name="convoquer" Type="Int32" Nullable="false" />
-          <Property Name="dominer" Type="Int32" Nullable="false" />
-          <Property Name="lier" Type="Int32" Nullable="false" />
-          <Property Name="revoquer" Type="Int32" Nullable="false" />
-          <Property Name="ppp" Type="Int32" Nullable="false" />
-          <Property Name="projection_psychique" Type="Int32" Nullable="false" />
-          <Property Name="voie_magique" Type="Int32" Nullable="false" />
-          <Property Name="multi_zeon_regen" Type="Int32" Nullable="false" />
-          <Property Name="acrobatie" Type="Int32" Nullable="false" />
-          <Property Name="athletisme" Type="Int32" Nullable="false" />
-          <Property Name="equitation" Type="Int32" Nullable="false" />
-          <Property Name="escalade" Type="Int32" Nullable="false" />
-          <Property Name="natation" Type="Int32" Nullable="false" />
-          <Property Name="saut" Type="Int32" Nullable="false" />
-          <Property Name="impassibilite" Type="Int32" Nullable="false" />
-          <Property Name="prouesse" Type="Int32" Nullable="false" />
-          <Property Name="resistance" Type="Int32" Nullable="false" />
-          <Property Name="observation" Type="Int32" Nullable="false" />
-          <Property Name="pistage" Type="Int32" Nullable="false" />
-          <Property Name="vigilance" Type="Int32" Nullable="false" />
-          <Property Name="animaux" Type="Int32" Nullable="false" />
-          <Property Name="estimation" Type="Int32" Nullable="false" />
-          <Property Name="evaluation_magique" Type="Int32" Nullable="false" />
-          <Property Name="herboristerie" Type="Int32" Nullable="false" />
-          <Property Name="histoire" Type="Int32" Nullable="false" />
-          <Property Name="medecine" Type="Int32" Nullable="false" />
-          <Property Name="memorisation" Type="Int32" Nullable="false" />
-          <Property Name="navigation" Type="Int32" Nullable="false" />
-          <Property Name="occultisme" Type="Int32" Nullable="false" />
-          <Property Name="science" Type="Int32" Nullable="false" />
-          <Property Name="loi" Type="Int32" Nullable="false" />
-          <Property Name="tactique" Type="Int32" Nullable="false" />
-          <Property Name="commandement" Type="Int32" Nullable="false" />
-          <Property Name="intimidation" Type="Int32" Nullable="false" />
-          <Property Name="persuasion" Type="Int32" Nullable="false" />
-          <Property Name="style" Type="Int32" Nullable="false" />
-          <Property Name="commerce" Type="Int32" Nullable="false" />
-          <Property Name="conn_rue" Type="Int32" Nullable="false" />
-          <Property Name="etiquette" Type="Int32" Nullable="false" />
-          <Property Name="camouflage" Type="Int32" Nullable="false" />
-          <Property Name="crochetage" Type="Int32" Nullable="false" />
-          <Property Name="deguisement" Type="Int32" Nullable="false" />
-          <Property Name="discretion" Type="Int32" Nullable="false" />
-          <Property Name="larcin" Type="Int32" Nullable="false" />
-          <Property Name="pieges" Type="Int32" Nullable="false" />
-          <Property Name="poison" Type="Int32" Nullable="false" />
-          <Property Name="art" Type="Int32" Nullable="false" />
-          <Property Name="danse" Type="Int32" Nullable="false" />
-          <Property Name="forge" Type="Int32" Nullable="false" />
-          <Property Name="habilete" Type="Int32" Nullable="false" />
-          <Property Name="musique" Type="Int32" Nullable="false" />
-          <Property Name="orfevrerie" Type="Int32" Nullable="false" />
-          <Property Name="confection" Type="Int32" Nullable="false" />
-          <Property Name="creation_mario" Type="Int32" Nullable="false" />
-          <Property Name="runes" Type="Int32" Nullable="false" />
-          <Property Name="alchimie" Type="Int32" Nullable="false" />
-          <Property Name="animisme" Type="Int32" Nullable="false" />
-          <Property Name="rituel_calligraphie" Type="Int32" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Joueur">
-          <Key>
-            <PropertyRef Name="Id_joueur" />
-          </Key>
-          <Property Name="Id_joueur" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Pseudo_Joueur" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Nom" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Prenom" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Classe_level_0" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Sexe" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Origine" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Classe_social" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Age" Type="Int32" Nullable="false" />
-          <Property Name="Apparence" Type="Int32" Nullable="false" />
-          <Property Name="Poid" Type="Int32" Nullable="false" />
-          <Property Name="Hauteur" Type="Int32" Nullable="false" />
-          <Property Name="Taille" Type="Int32" Nullable="false" />
-          <Property Name="base_for" Type="Int32" Nullable="false" />
-          <Property Name="base_agi" Type="Int32" Nullable="false" />
-          <Property Name="base_dex" Type="Int32" Nullable="false" />
-          <Property Name="base_con" Type="Int32" Nullable="false" />
-          <Property Name="base_int" Type="Int32" Nullable="false" />
-          <Property Name="base_per" Type="Int32" Nullable="false" />
-          <Property Name="base_pou" Type="Int32" Nullable="false" />
-          <Property Name="base_vol" Type="Int32" Nullable="false" />
-          <Property Name="total_xp" Type="Int32" Nullable="false" />
-        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -1751,6 +1755,79 @@
             <EntityTypeMapping TypeName="mainModel.Classe">
               <MappingFragment StoreEntitySet="Classe">
                 <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="classe_bonus">
+            <EntityTypeMapping TypeName="mainModel.classe_bonus">
+              <MappingFragment StoreEntitySet="classe_bonus">
+                <ScalarProperty Name="chara_nat" ColumnName="chara_nat" />
+                <ScalarProperty Name="rituel_calligraphie" ColumnName="rituel_calligraphie" />
+                <ScalarProperty Name="animisme" ColumnName="animisme" />
+                <ScalarProperty Name="alchimie" ColumnName="alchimie" />
+                <ScalarProperty Name="runes" ColumnName="runes" />
+                <ScalarProperty Name="creation_mario" ColumnName="creation_mario" />
+                <ScalarProperty Name="confection" ColumnName="confection" />
+                <ScalarProperty Name="orfevrerie" ColumnName="orfevrerie" />
+                <ScalarProperty Name="musique" ColumnName="musique" />
+                <ScalarProperty Name="habilete" ColumnName="habilete" />
+                <ScalarProperty Name="forge" ColumnName="forge" />
+                <ScalarProperty Name="danse" ColumnName="danse" />
+                <ScalarProperty Name="art" ColumnName="art" />
+                <ScalarProperty Name="poison" ColumnName="poison" />
+                <ScalarProperty Name="pieges" ColumnName="pieges" />
+                <ScalarProperty Name="larcin" ColumnName="larcin" />
+                <ScalarProperty Name="discretion" ColumnName="discretion" />
+                <ScalarProperty Name="deguisement" ColumnName="deguisement" />
+                <ScalarProperty Name="crochetage" ColumnName="crochetage" />
+                <ScalarProperty Name="camouflage" ColumnName="camouflage" />
+                <ScalarProperty Name="etiquette" ColumnName="etiquette" />
+                <ScalarProperty Name="conn_rue" ColumnName="conn_rue" />
+                <ScalarProperty Name="commerce" ColumnName="commerce" />
+                <ScalarProperty Name="style" ColumnName="style" />
+                <ScalarProperty Name="persuasion" ColumnName="persuasion" />
+                <ScalarProperty Name="intimidation" ColumnName="intimidation" />
+                <ScalarProperty Name="commandement" ColumnName="commandement" />
+                <ScalarProperty Name="tactique" ColumnName="tactique" />
+                <ScalarProperty Name="loi" ColumnName="loi" />
+                <ScalarProperty Name="science" ColumnName="science" />
+                <ScalarProperty Name="occultisme" ColumnName="occultisme" />
+                <ScalarProperty Name="navigation" ColumnName="navigation" />
+                <ScalarProperty Name="memorisation" ColumnName="memorisation" />
+                <ScalarProperty Name="medecine" ColumnName="medecine" />
+                <ScalarProperty Name="histoire" ColumnName="histoire" />
+                <ScalarProperty Name="herboristerie" ColumnName="herboristerie" />
+                <ScalarProperty Name="evaluation_magique" ColumnName="evaluation_magique" />
+                <ScalarProperty Name="estimation" ColumnName="estimation" />
+                <ScalarProperty Name="animaux" ColumnName="animaux" />
+                <ScalarProperty Name="vigilance" ColumnName="vigilance" />
+                <ScalarProperty Name="pistage" ColumnName="pistage" />
+                <ScalarProperty Name="observation" ColumnName="observation" />
+                <ScalarProperty Name="resistance" ColumnName="resistance" />
+                <ScalarProperty Name="prouesse" ColumnName="prouesse" />
+                <ScalarProperty Name="impassibilite" ColumnName="impassibilite" />
+                <ScalarProperty Name="saut" ColumnName="saut" />
+                <ScalarProperty Name="natation" ColumnName="natation" />
+                <ScalarProperty Name="escalade" ColumnName="escalade" />
+                <ScalarProperty Name="equitation" ColumnName="equitation" />
+                <ScalarProperty Name="athletisme" ColumnName="athletisme" />
+                <ScalarProperty Name="acrobatie" ColumnName="acrobatie" />
+                <ScalarProperty Name="comp_nat_classe" ColumnName="comp_nat_classe" />
+                <ScalarProperty Name="zeon" ColumnName="zeon" />
+                <ScalarProperty Name="revoquer" ColumnName="revoquer" />
+                <ScalarProperty Name="lier" ColumnName="lier" />
+                <ScalarProperty Name="dominer" ColumnName="dominer" />
+                <ScalarProperty Name="convoquer" ColumnName="convoquer" />
+                <ScalarProperty Name="port_darmure" ColumnName="port_darmure" />
+                <ScalarProperty Name="esquive" ColumnName="esquive" />
+                <ScalarProperty Name="parade" ColumnName="parade" />
+                <ScalarProperty Name="attaque" ColumnName="attaque" />
+                <ScalarProperty Name="charac" ColumnName="charac" />
+                <ScalarProperty Name="ppp" ColumnName="ppp" />
+                <ScalarProperty Name="di" ColumnName="di" />
+                <ScalarProperty Name="initiative" ColumnName="initiative" />
+                <ScalarProperty Name="pv" ColumnName="pv" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -1871,6 +1948,34 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="Joueur">
+            <EntityTypeMapping TypeName="mainModel.Joueur">
+              <MappingFragment StoreEntitySet="Joueur">
+                <ScalarProperty Name="total_xp" ColumnName="total_xp" />
+                <ScalarProperty Name="base_vol" ColumnName="base_vol" />
+                <ScalarProperty Name="base_pou" ColumnName="base_pou" />
+                <ScalarProperty Name="base_per" ColumnName="base_per" />
+                <ScalarProperty Name="base_int" ColumnName="base_int" />
+                <ScalarProperty Name="base_con" ColumnName="base_con" />
+                <ScalarProperty Name="base_dex" ColumnName="base_dex" />
+                <ScalarProperty Name="base_agi" ColumnName="base_agi" />
+                <ScalarProperty Name="base_for" ColumnName="base_for" />
+                <ScalarProperty Name="Taille" ColumnName="Taille" />
+                <ScalarProperty Name="Hauteur" ColumnName="Hauteur" />
+                <ScalarProperty Name="Poid" ColumnName="Poid" />
+                <ScalarProperty Name="Apparence" ColumnName="Apparence" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Classe_social" ColumnName="Classe_social" />
+                <ScalarProperty Name="Origine" ColumnName="Origine" />
+                <ScalarProperty Name="Sexe" ColumnName="Sexe" />
+                <ScalarProperty Name="Classe_level_0" ColumnName="Classe_level_0" />
+                <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="Pseudo_Joueur" ColumnName="Pseudo_Joueur" />
+                <ScalarProperty Name="Id_joueur" ColumnName="Id_joueur" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="joueur_actu_">
             <EntityTypeMapping TypeName="mainModel.joueur_actu_">
               <MappingFragment StoreEntitySet="joueur_actu&#x9;">
@@ -1955,6 +2060,159 @@
                 <ScalarProperty Name="fatigue" ColumnName="fatigue" />
                 <ScalarProperty Name="initiative" ColumnName="initiative" />
                 <ScalarProperty Name="pv" ColumnName="pv" />
+                <ScalarProperty Name="id_joueur" ColumnName="id_joueur" />
+                <ScalarProperty Name="id_classe" ColumnName="id_classe" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="joueur_bonus">
+            <EntityTypeMapping TypeName="mainModel.joueur_bonus">
+              <MappingFragment StoreEntitySet="joueur_bonus">
+                <ScalarProperty Name="chara_nat" ColumnName="chara_nat" />
+                <ScalarProperty Name="rituel_calligraphie" ColumnName="rituel_calligraphie" />
+                <ScalarProperty Name="animisme" ColumnName="animisme" />
+                <ScalarProperty Name="alchimie" ColumnName="alchimie" />
+                <ScalarProperty Name="runes" ColumnName="runes" />
+                <ScalarProperty Name="creation_mario" ColumnName="creation_mario" />
+                <ScalarProperty Name="confection" ColumnName="confection" />
+                <ScalarProperty Name="orfevrerie" ColumnName="orfevrerie" />
+                <ScalarProperty Name="musique" ColumnName="musique" />
+                <ScalarProperty Name="habilete" ColumnName="habilete" />
+                <ScalarProperty Name="forge" ColumnName="forge" />
+                <ScalarProperty Name="danse" ColumnName="danse" />
+                <ScalarProperty Name="art" ColumnName="art" />
+                <ScalarProperty Name="poison" ColumnName="poison" />
+                <ScalarProperty Name="pieges" ColumnName="pieges" />
+                <ScalarProperty Name="larcin" ColumnName="larcin" />
+                <ScalarProperty Name="discretion" ColumnName="discretion" />
+                <ScalarProperty Name="deguisement" ColumnName="deguisement" />
+                <ScalarProperty Name="crochetage" ColumnName="crochetage" />
+                <ScalarProperty Name="camouflage" ColumnName="camouflage" />
+                <ScalarProperty Name="etiquette" ColumnName="etiquette" />
+                <ScalarProperty Name="conn_rue" ColumnName="conn_rue" />
+                <ScalarProperty Name="commerce" ColumnName="commerce" />
+                <ScalarProperty Name="style" ColumnName="style" />
+                <ScalarProperty Name="persuasion" ColumnName="persuasion" />
+                <ScalarProperty Name="intimidation" ColumnName="intimidation" />
+                <ScalarProperty Name="commandement" ColumnName="commandement" />
+                <ScalarProperty Name="tactique" ColumnName="tactique" />
+                <ScalarProperty Name="loi" ColumnName="loi" />
+                <ScalarProperty Name="science" ColumnName="science" />
+                <ScalarProperty Name="occultisme" ColumnName="occultisme" />
+                <ScalarProperty Name="navigation" ColumnName="navigation" />
+                <ScalarProperty Name="memorisation" ColumnName="memorisation" />
+                <ScalarProperty Name="medecine" ColumnName="medecine" />
+                <ScalarProperty Name="histoire" ColumnName="histoire" />
+                <ScalarProperty Name="herboristerie" ColumnName="herboristerie" />
+                <ScalarProperty Name="evaluation_magique" ColumnName="evaluation_magique" />
+                <ScalarProperty Name="estimation" ColumnName="estimation" />
+                <ScalarProperty Name="animaux" ColumnName="animaux" />
+                <ScalarProperty Name="vigilance" ColumnName="vigilance" />
+                <ScalarProperty Name="pistage" ColumnName="pistage" />
+                <ScalarProperty Name="observation" ColumnName="observation" />
+                <ScalarProperty Name="resistance" ColumnName="resistance" />
+                <ScalarProperty Name="prouesse" ColumnName="prouesse" />
+                <ScalarProperty Name="impassibilite" ColumnName="impassibilite" />
+                <ScalarProperty Name="saut" ColumnName="saut" />
+                <ScalarProperty Name="natation" ColumnName="natation" />
+                <ScalarProperty Name="escalade" ColumnName="escalade" />
+                <ScalarProperty Name="equitation" ColumnName="equitation" />
+                <ScalarProperty Name="athletisme" ColumnName="athletisme" />
+                <ScalarProperty Name="acrobatie" ColumnName="acrobatie" />
+                <ScalarProperty Name="comp_nat_classe" ColumnName="comp_nat_classe" />
+                <ScalarProperty Name="zeon" ColumnName="zeon" />
+                <ScalarProperty Name="revoquer" ColumnName="revoquer" />
+                <ScalarProperty Name="lier" ColumnName="lier" />
+                <ScalarProperty Name="dominer" ColumnName="dominer" />
+                <ScalarProperty Name="convoquer" ColumnName="convoquer" />
+                <ScalarProperty Name="port_darmure" ColumnName="port_darmure" />
+                <ScalarProperty Name="esquive" ColumnName="esquive" />
+                <ScalarProperty Name="parade" ColumnName="parade" />
+                <ScalarProperty Name="attaque" ColumnName="attaque" />
+                <ScalarProperty Name="charac" ColumnName="charac" />
+                <ScalarProperty Name="ppp" ColumnName="ppp" />
+                <ScalarProperty Name="di" ColumnName="di" />
+                <ScalarProperty Name="initiative" ColumnName="initiative" />
+                <ScalarProperty Name="pv" ColumnName="pv" />
+                <ScalarProperty Name="id_joueur" ColumnName="id_joueur" />
+                <ScalarProperty Name="id_classe" ColumnName="id_classe" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="joueur_cout">
+            <EntityTypeMapping TypeName="mainModel.joueur_cout">
+              <MappingFragment StoreEntitySet="joueur_cout">
+                <ScalarProperty Name="rituel_calligraphie" ColumnName="rituel_calligraphie" />
+                <ScalarProperty Name="animisme" ColumnName="animisme" />
+                <ScalarProperty Name="alchimie" ColumnName="alchimie" />
+                <ScalarProperty Name="runes" ColumnName="runes" />
+                <ScalarProperty Name="creation_mario" ColumnName="creation_mario" />
+                <ScalarProperty Name="confection" ColumnName="confection" />
+                <ScalarProperty Name="orfevrerie" ColumnName="orfevrerie" />
+                <ScalarProperty Name="musique" ColumnName="musique" />
+                <ScalarProperty Name="habilete" ColumnName="habilete" />
+                <ScalarProperty Name="forge" ColumnName="forge" />
+                <ScalarProperty Name="danse" ColumnName="danse" />
+                <ScalarProperty Name="art" ColumnName="art" />
+                <ScalarProperty Name="poison" ColumnName="poison" />
+                <ScalarProperty Name="pieges" ColumnName="pieges" />
+                <ScalarProperty Name="larcin" ColumnName="larcin" />
+                <ScalarProperty Name="discretion" ColumnName="discretion" />
+                <ScalarProperty Name="deguisement" ColumnName="deguisement" />
+                <ScalarProperty Name="crochetage" ColumnName="crochetage" />
+                <ScalarProperty Name="camouflage" ColumnName="camouflage" />
+                <ScalarProperty Name="etiquette" ColumnName="etiquette" />
+                <ScalarProperty Name="conn_rue" ColumnName="conn_rue" />
+                <ScalarProperty Name="commerce" ColumnName="commerce" />
+                <ScalarProperty Name="style" ColumnName="style" />
+                <ScalarProperty Name="persuasion" ColumnName="persuasion" />
+                <ScalarProperty Name="intimidation" ColumnName="intimidation" />
+                <ScalarProperty Name="commandement" ColumnName="commandement" />
+                <ScalarProperty Name="tactique" ColumnName="tactique" />
+                <ScalarProperty Name="loi" ColumnName="loi" />
+                <ScalarProperty Name="science" ColumnName="science" />
+                <ScalarProperty Name="occultisme" ColumnName="occultisme" />
+                <ScalarProperty Name="navigation" ColumnName="navigation" />
+                <ScalarProperty Name="memorisation" ColumnName="memorisation" />
+                <ScalarProperty Name="medecine" ColumnName="medecine" />
+                <ScalarProperty Name="histoire" ColumnName="histoire" />
+                <ScalarProperty Name="herboristerie" ColumnName="herboristerie" />
+                <ScalarProperty Name="evaluation_magique" ColumnName="evaluation_magique" />
+                <ScalarProperty Name="estimation" ColumnName="estimation" />
+                <ScalarProperty Name="animaux" ColumnName="animaux" />
+                <ScalarProperty Name="vigilance" ColumnName="vigilance" />
+                <ScalarProperty Name="pistage" ColumnName="pistage" />
+                <ScalarProperty Name="observation" ColumnName="observation" />
+                <ScalarProperty Name="resistance" ColumnName="resistance" />
+                <ScalarProperty Name="prouesse" ColumnName="prouesse" />
+                <ScalarProperty Name="impassibilite" ColumnName="impassibilite" />
+                <ScalarProperty Name="saut" ColumnName="saut" />
+                <ScalarProperty Name="natation" ColumnName="natation" />
+                <ScalarProperty Name="escalade" ColumnName="escalade" />
+                <ScalarProperty Name="equitation" ColumnName="equitation" />
+                <ScalarProperty Name="athletisme" ColumnName="athletisme" />
+                <ScalarProperty Name="acrobatie" ColumnName="acrobatie" />
+                <ScalarProperty Name="multi_zeon_regen" ColumnName="multi_zeon_regen" />
+                <ScalarProperty Name="voie_magique" ColumnName="voie_magique" />
+                <ScalarProperty Name="projection_psychique" ColumnName="projection_psychique" />
+                <ScalarProperty Name="ppp" ColumnName="ppp" />
+                <ScalarProperty Name="revoquer" ColumnName="revoquer" />
+                <ScalarProperty Name="lier" ColumnName="lier" />
+                <ScalarProperty Name="dominer" ColumnName="dominer" />
+                <ScalarProperty Name="convoquer" ColumnName="convoquer" />
+                <ScalarProperty Name="projection_magique" ColumnName="projection_magique" />
+                <ScalarProperty Name="multi_amr" ColumnName="multi_amr" />
+                <ScalarProperty Name="zeon" ColumnName="zeon" />
+                <ScalarProperty Name="accumulation_ki" ColumnName="accumulation_ki" />
+                <ScalarProperty Name="ki" ColumnName="ki" />
+                <ScalarProperty Name="di" ColumnName="di" />
+                <ScalarProperty Name="port_darmure" ColumnName="port_darmure" />
+                <ScalarProperty Name="esquive" ColumnName="esquive" />
+                <ScalarProperty Name="parade" ColumnName="parade" />
+                <ScalarProperty Name="attaque" ColumnName="attaque" />
+                <ScalarProperty Name="multi_pv" ColumnName="multi_pv" />
                 <ScalarProperty Name="id_joueur" ColumnName="id_joueur" />
                 <ScalarProperty Name="id_classe" ColumnName="id_classe" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -2344,258 +2602,6 @@
                 <ScalarProperty Name="Forca" ColumnName="Forca" />
                 <ScalarProperty Name="id_joueur" ColumnName="id_joueur" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="classe_bonus">
-            <EntityTypeMapping TypeName="mainModel.classe_bonus">
-              <MappingFragment StoreEntitySet="classe_bonus">
-                <ScalarProperty Name="rituel_calligraphie" ColumnName="rituel_calligraphie" />
-                <ScalarProperty Name="animisme" ColumnName="animisme" />
-                <ScalarProperty Name="alchimie" ColumnName="alchimie" />
-                <ScalarProperty Name="runes" ColumnName="runes" />
-                <ScalarProperty Name="creation_mario" ColumnName="creation_mario" />
-                <ScalarProperty Name="confection" ColumnName="confection" />
-                <ScalarProperty Name="orfevrerie" ColumnName="orfevrerie" />
-                <ScalarProperty Name="musique" ColumnName="musique" />
-                <ScalarProperty Name="habilete" ColumnName="habilete" />
-                <ScalarProperty Name="forge" ColumnName="forge" />
-                <ScalarProperty Name="danse" ColumnName="danse" />
-                <ScalarProperty Name="art" ColumnName="art" />
-                <ScalarProperty Name="poison" ColumnName="poison" />
-                <ScalarProperty Name="pieges" ColumnName="pieges" />
-                <ScalarProperty Name="larcin" ColumnName="larcin" />
-                <ScalarProperty Name="discretion" ColumnName="discretion" />
-                <ScalarProperty Name="deguisement" ColumnName="deguisement" />
-                <ScalarProperty Name="crochetage" ColumnName="crochetage" />
-                <ScalarProperty Name="camouflage" ColumnName="camouflage" />
-                <ScalarProperty Name="etiquette" ColumnName="etiquette" />
-                <ScalarProperty Name="conn_rue" ColumnName="conn_rue" />
-                <ScalarProperty Name="commerce" ColumnName="commerce" />
-                <ScalarProperty Name="style" ColumnName="style" />
-                <ScalarProperty Name="persuasion" ColumnName="persuasion" />
-                <ScalarProperty Name="intimidation" ColumnName="intimidation" />
-                <ScalarProperty Name="commandement" ColumnName="commandement" />
-                <ScalarProperty Name="tactique" ColumnName="tactique" />
-                <ScalarProperty Name="loi" ColumnName="loi" />
-                <ScalarProperty Name="science" ColumnName="science" />
-                <ScalarProperty Name="occultisme" ColumnName="occultisme" />
-                <ScalarProperty Name="navigation" ColumnName="navigation" />
-                <ScalarProperty Name="memorisation" ColumnName="memorisation" />
-                <ScalarProperty Name="medecine" ColumnName="medecine" />
-                <ScalarProperty Name="histoire" ColumnName="histoire" />
-                <ScalarProperty Name="herboristerie" ColumnName="herboristerie" />
-                <ScalarProperty Name="evaluation_magique" ColumnName="evaluation_magique" />
-                <ScalarProperty Name="estimation" ColumnName="estimation" />
-                <ScalarProperty Name="animaux" ColumnName="animaux" />
-                <ScalarProperty Name="vigilance" ColumnName="vigilance" />
-                <ScalarProperty Name="pistage" ColumnName="pistage" />
-                <ScalarProperty Name="observation" ColumnName="observation" />
-                <ScalarProperty Name="resistance" ColumnName="resistance" />
-                <ScalarProperty Name="prouesse" ColumnName="prouesse" />
-                <ScalarProperty Name="impassibilite" ColumnName="impassibilite" />
-                <ScalarProperty Name="saut" ColumnName="saut" />
-                <ScalarProperty Name="natation" ColumnName="natation" />
-                <ScalarProperty Name="escalade" ColumnName="escalade" />
-                <ScalarProperty Name="equitation" ColumnName="equitation" />
-                <ScalarProperty Name="athletisme" ColumnName="athletisme" />
-                <ScalarProperty Name="acrobatie" ColumnName="acrobatie" />
-                <ScalarProperty Name="comp_nat_classe" ColumnName="comp_nat_classe" />
-                <ScalarProperty Name="zeon" ColumnName="zeon" />
-                <ScalarProperty Name="revoquer" ColumnName="revoquer" />
-                <ScalarProperty Name="lier" ColumnName="lier" />
-                <ScalarProperty Name="dominer" ColumnName="dominer" />
-                <ScalarProperty Name="convoquer" ColumnName="convoquer" />
-                <ScalarProperty Name="port_darmure" ColumnName="port_darmure" />
-                <ScalarProperty Name="esquive" ColumnName="esquive" />
-                <ScalarProperty Name="parade" ColumnName="parade" />
-                <ScalarProperty Name="attaque" ColumnName="attaque" />
-                <ScalarProperty Name="charac" ColumnName="charac" />
-                <ScalarProperty Name="ppp" ColumnName="ppp" />
-                <ScalarProperty Name="di" ColumnName="di" />
-                <ScalarProperty Name="initiative" ColumnName="initiative" />
-                <ScalarProperty Name="pv" ColumnName="pv" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="joueur_bonus">
-            <EntityTypeMapping TypeName="mainModel.joueur_bonus">
-              <MappingFragment StoreEntitySet="joueur_bonus">
-                <ScalarProperty Name="rituel_calligraphie" ColumnName="rituel_calligraphie" />
-                <ScalarProperty Name="animisme" ColumnName="animisme" />
-                <ScalarProperty Name="alchimie" ColumnName="alchimie" />
-                <ScalarProperty Name="runes" ColumnName="runes" />
-                <ScalarProperty Name="creation_mario" ColumnName="creation_mario" />
-                <ScalarProperty Name="confection" ColumnName="confection" />
-                <ScalarProperty Name="orfevrerie" ColumnName="orfevrerie" />
-                <ScalarProperty Name="musique" ColumnName="musique" />
-                <ScalarProperty Name="habilete" ColumnName="habilete" />
-                <ScalarProperty Name="forge" ColumnName="forge" />
-                <ScalarProperty Name="danse" ColumnName="danse" />
-                <ScalarProperty Name="art" ColumnName="art" />
-                <ScalarProperty Name="poison" ColumnName="poison" />
-                <ScalarProperty Name="pieges" ColumnName="pieges" />
-                <ScalarProperty Name="larcin" ColumnName="larcin" />
-                <ScalarProperty Name="discretion" ColumnName="discretion" />
-                <ScalarProperty Name="deguisement" ColumnName="deguisement" />
-                <ScalarProperty Name="crochetage" ColumnName="crochetage" />
-                <ScalarProperty Name="camouflage" ColumnName="camouflage" />
-                <ScalarProperty Name="etiquette" ColumnName="etiquette" />
-                <ScalarProperty Name="conn_rue" ColumnName="conn_rue" />
-                <ScalarProperty Name="commerce" ColumnName="commerce" />
-                <ScalarProperty Name="style" ColumnName="style" />
-                <ScalarProperty Name="persuasion" ColumnName="persuasion" />
-                <ScalarProperty Name="intimidation" ColumnName="intimidation" />
-                <ScalarProperty Name="commandement" ColumnName="commandement" />
-                <ScalarProperty Name="tactique" ColumnName="tactique" />
-                <ScalarProperty Name="loi" ColumnName="loi" />
-                <ScalarProperty Name="science" ColumnName="science" />
-                <ScalarProperty Name="occultisme" ColumnName="occultisme" />
-                <ScalarProperty Name="navigation" ColumnName="navigation" />
-                <ScalarProperty Name="memorisation" ColumnName="memorisation" />
-                <ScalarProperty Name="medecine" ColumnName="medecine" />
-                <ScalarProperty Name="histoire" ColumnName="histoire" />
-                <ScalarProperty Name="herboristerie" ColumnName="herboristerie" />
-                <ScalarProperty Name="evaluation_magique" ColumnName="evaluation_magique" />
-                <ScalarProperty Name="estimation" ColumnName="estimation" />
-                <ScalarProperty Name="animaux" ColumnName="animaux" />
-                <ScalarProperty Name="vigilance" ColumnName="vigilance" />
-                <ScalarProperty Name="pistage" ColumnName="pistage" />
-                <ScalarProperty Name="observation" ColumnName="observation" />
-                <ScalarProperty Name="resistance" ColumnName="resistance" />
-                <ScalarProperty Name="prouesse" ColumnName="prouesse" />
-                <ScalarProperty Name="impassibilite" ColumnName="impassibilite" />
-                <ScalarProperty Name="saut" ColumnName="saut" />
-                <ScalarProperty Name="natation" ColumnName="natation" />
-                <ScalarProperty Name="escalade" ColumnName="escalade" />
-                <ScalarProperty Name="equitation" ColumnName="equitation" />
-                <ScalarProperty Name="athletisme" ColumnName="athletisme" />
-                <ScalarProperty Name="acrobatie" ColumnName="acrobatie" />
-                <ScalarProperty Name="comp_nat_classe" ColumnName="comp_nat_classe" />
-                <ScalarProperty Name="zeon" ColumnName="zeon" />
-                <ScalarProperty Name="revoquer" ColumnName="revoquer" />
-                <ScalarProperty Name="lier" ColumnName="lier" />
-                <ScalarProperty Name="dominer" ColumnName="dominer" />
-                <ScalarProperty Name="convoquer" ColumnName="convoquer" />
-                <ScalarProperty Name="port_darmure" ColumnName="port_darmure" />
-                <ScalarProperty Name="esquive" ColumnName="esquive" />
-                <ScalarProperty Name="parade" ColumnName="parade" />
-                <ScalarProperty Name="attaque" ColumnName="attaque" />
-                <ScalarProperty Name="charac" ColumnName="charac" />
-                <ScalarProperty Name="ppp" ColumnName="ppp" />
-                <ScalarProperty Name="di" ColumnName="di" />
-                <ScalarProperty Name="initiative" ColumnName="initiative" />
-                <ScalarProperty Name="pv" ColumnName="pv" />
-                <ScalarProperty Name="id_joueur" ColumnName="id_joueur" />
-                <ScalarProperty Name="id_classe" ColumnName="id_classe" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="joueur_cout">
-            <EntityTypeMapping TypeName="mainModel.joueur_cout">
-              <MappingFragment StoreEntitySet="joueur_cout">
-                <ScalarProperty Name="rituel_calligraphie" ColumnName="rituel_calligraphie" />
-                <ScalarProperty Name="animisme" ColumnName="animisme" />
-                <ScalarProperty Name="alchimie" ColumnName="alchimie" />
-                <ScalarProperty Name="runes" ColumnName="runes" />
-                <ScalarProperty Name="creation_mario" ColumnName="creation_mario" />
-                <ScalarProperty Name="confection" ColumnName="confection" />
-                <ScalarProperty Name="orfevrerie" ColumnName="orfevrerie" />
-                <ScalarProperty Name="musique" ColumnName="musique" />
-                <ScalarProperty Name="habilete" ColumnName="habilete" />
-                <ScalarProperty Name="forge" ColumnName="forge" />
-                <ScalarProperty Name="danse" ColumnName="danse" />
-                <ScalarProperty Name="art" ColumnName="art" />
-                <ScalarProperty Name="poison" ColumnName="poison" />
-                <ScalarProperty Name="pieges" ColumnName="pieges" />
-                <ScalarProperty Name="larcin" ColumnName="larcin" />
-                <ScalarProperty Name="discretion" ColumnName="discretion" />
-                <ScalarProperty Name="deguisement" ColumnName="deguisement" />
-                <ScalarProperty Name="crochetage" ColumnName="crochetage" />
-                <ScalarProperty Name="camouflage" ColumnName="camouflage" />
-                <ScalarProperty Name="etiquette" ColumnName="etiquette" />
-                <ScalarProperty Name="conn_rue" ColumnName="conn_rue" />
-                <ScalarProperty Name="commerce" ColumnName="commerce" />
-                <ScalarProperty Name="style" ColumnName="style" />
-                <ScalarProperty Name="persuasion" ColumnName="persuasion" />
-                <ScalarProperty Name="intimidation" ColumnName="intimidation" />
-                <ScalarProperty Name="commandement" ColumnName="commandement" />
-                <ScalarProperty Name="tactique" ColumnName="tactique" />
-                <ScalarProperty Name="loi" ColumnName="loi" />
-                <ScalarProperty Name="science" ColumnName="science" />
-                <ScalarProperty Name="occultisme" ColumnName="occultisme" />
-                <ScalarProperty Name="navigation" ColumnName="navigation" />
-                <ScalarProperty Name="memorisation" ColumnName="memorisation" />
-                <ScalarProperty Name="medecine" ColumnName="medecine" />
-                <ScalarProperty Name="histoire" ColumnName="histoire" />
-                <ScalarProperty Name="herboristerie" ColumnName="herboristerie" />
-                <ScalarProperty Name="evaluation_magique" ColumnName="evaluation_magique" />
-                <ScalarProperty Name="estimation" ColumnName="estimation" />
-                <ScalarProperty Name="animaux" ColumnName="animaux" />
-                <ScalarProperty Name="vigilance" ColumnName="vigilance" />
-                <ScalarProperty Name="pistage" ColumnName="pistage" />
-                <ScalarProperty Name="observation" ColumnName="observation" />
-                <ScalarProperty Name="resistance" ColumnName="resistance" />
-                <ScalarProperty Name="prouesse" ColumnName="prouesse" />
-                <ScalarProperty Name="impassibilite" ColumnName="impassibilite" />
-                <ScalarProperty Name="saut" ColumnName="saut" />
-                <ScalarProperty Name="natation" ColumnName="natation" />
-                <ScalarProperty Name="escalade" ColumnName="escalade" />
-                <ScalarProperty Name="equitation" ColumnName="equitation" />
-                <ScalarProperty Name="athletisme" ColumnName="athletisme" />
-                <ScalarProperty Name="acrobatie" ColumnName="acrobatie" />
-                <ScalarProperty Name="multi_zeon_regen" ColumnName="multi_zeon_regen" />
-                <ScalarProperty Name="voie_magique" ColumnName="voie_magique" />
-                <ScalarProperty Name="projection_psychique" ColumnName="projection_psychique" />
-                <ScalarProperty Name="ppp" ColumnName="ppp" />
-                <ScalarProperty Name="revoquer" ColumnName="revoquer" />
-                <ScalarProperty Name="lier" ColumnName="lier" />
-                <ScalarProperty Name="dominer" ColumnName="dominer" />
-                <ScalarProperty Name="convoquer" ColumnName="convoquer" />
-                <ScalarProperty Name="projection_magique" ColumnName="projection_magique" />
-                <ScalarProperty Name="multi_amr" ColumnName="multi_amr" />
-                <ScalarProperty Name="zeon" ColumnName="zeon" />
-                <ScalarProperty Name="accumulation_ki" ColumnName="accumulation_ki" />
-                <ScalarProperty Name="ki" ColumnName="ki" />
-                <ScalarProperty Name="di" ColumnName="di" />
-                <ScalarProperty Name="port_darmure" ColumnName="port_darmure" />
-                <ScalarProperty Name="esquive" ColumnName="esquive" />
-                <ScalarProperty Name="parade" ColumnName="parade" />
-                <ScalarProperty Name="attaque" ColumnName="attaque" />
-                <ScalarProperty Name="multi_pv" ColumnName="multi_pv" />
-                <ScalarProperty Name="id_joueur" ColumnName="id_joueur" />
-                <ScalarProperty Name="id_classe" ColumnName="id_classe" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Joueur">
-            <EntityTypeMapping TypeName="mainModel.Joueur">
-              <MappingFragment StoreEntitySet="Joueur">
-                <ScalarProperty Name="total_xp" ColumnName="total_xp" />
-                <ScalarProperty Name="base_vol" ColumnName="base_vol" />
-                <ScalarProperty Name="base_pou" ColumnName="base_pou" />
-                <ScalarProperty Name="base_per" ColumnName="base_per" />
-                <ScalarProperty Name="base_int" ColumnName="base_int" />
-                <ScalarProperty Name="base_con" ColumnName="base_con" />
-                <ScalarProperty Name="base_dex" ColumnName="base_dex" />
-                <ScalarProperty Name="base_agi" ColumnName="base_agi" />
-                <ScalarProperty Name="base_for" ColumnName="base_for" />
-                <ScalarProperty Name="Taille" ColumnName="Taille" />
-                <ScalarProperty Name="Hauteur" ColumnName="Hauteur" />
-                <ScalarProperty Name="Poid" ColumnName="Poid" />
-                <ScalarProperty Name="Apparence" ColumnName="Apparence" />
-                <ScalarProperty Name="Age" ColumnName="Age" />
-                <ScalarProperty Name="Classe_social" ColumnName="Classe_social" />
-                <ScalarProperty Name="Origine" ColumnName="Origine" />
-                <ScalarProperty Name="Sexe" ColumnName="Sexe" />
-                <ScalarProperty Name="Classe_level_0" ColumnName="Classe_level_0" />
-                <ScalarProperty Name="Prenom" ColumnName="Prenom" />
-                <ScalarProperty Name="Nom" ColumnName="Nom" />
-                <ScalarProperty Name="Pseudo_Joueur" ColumnName="Pseudo_Joueur" />
-                <ScalarProperty Name="Id_joueur" ColumnName="Id_joueur" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

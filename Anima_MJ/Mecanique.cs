@@ -59,24 +59,26 @@ namespace Anima_MJ
             return pf;
         }
         //fonction permettant de trouver l'id d'une classe via son nom
-        public static long IDclasse(Outils.Perso perso)
+        public static int IDclasse(Outils.Perso perso)
         {
-            long id = -1;
+            int id = -1;
             var query = from a in Donnees.Db.Classe
                         where a.Nom == perso.Classe
                         select a;
             foreach (var a in query)
             {
-                id = a.Id;
+                id =(int) a.Id;
                
             }
 
             return id;
         }
+
+        //Fonction servant à instancier une 1er fois la table joueur_bonus
         public static void Ins_joueur_bonus(Outils.Perso perso)
         {
             joueur_bonus Kevin = new joueur_bonus();
-            long classe_id = IDclasse(perso);
+            int classe_id = IDclasse(perso);
             //instanciation de la table joueur-bonus
             var query = from a in Donnees.Db.classe_bonus
                         where a.Id == classe_id
@@ -154,12 +156,15 @@ namespace Anima_MJ
                 Kevin.alchimie = a.alchimie;
                 Kevin.animisme = a.animisme;
                 Kevin.rituel_calligraphie = a.rituel_calligraphie;
+                //ajout de dernier minute d'où sa position loufoque
+                Kevin.chara_nat = a.chara_nat;
                 Donnees.Db.joueur_bonus.Add(Kevin);
                 Donnees.Db.SaveChanges();
             }
            
         }
 
+        //Fonction servant à instancier une 1er fois la table joueur_cout
         public static void Ins_joueur_cout(Outils.Perso perso)
         {
             joueur_cout Kevin = new joueur_cout();
