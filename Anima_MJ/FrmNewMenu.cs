@@ -33,8 +33,10 @@ namespace Anima_MJ
                         select a;
             foreach (var a in query)
             {
+
                 chargement_cout = a;
               chargement_bonus =  Mecanique.Char_joueur_bonus(perso);
+
                 c++;
               
             }
