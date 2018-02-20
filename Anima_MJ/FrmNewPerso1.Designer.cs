@@ -175,7 +175,7 @@
             "Paladin",
             "Paladin Noir",
             "Maître d\'armes",
-            "virtuose Martial",
+            "Virtuose Martial",
             "Tao",
             "Explorateur",
             "Ombre",
@@ -350,19 +350,18 @@
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
             this.toolStripSplitButton1.Size = new System.Drawing.Size(103, 22);
             this.toolStripSplitButton1.Text = "Level de départ";
-            this.toolStripSplitButton1.ButtonClick += new System.EventHandler(this.toolStripSplitButton1_ButtonClick);
             // 
             // MenuLevel0
             // 
             this.MenuLevel0.Name = "MenuLevel0";
-            this.MenuLevel0.Size = new System.Drawing.Size(152, 22);
+            this.MenuLevel0.Size = new System.Drawing.Size(110, 22);
             this.MenuLevel0.Text = "Level 0";
             this.MenuLevel0.Click += new System.EventHandler(this.MenuLevel0_Click);
             // 
             // MenuLevel1
             // 
             this.MenuLevel1.Name = "MenuLevel1";
-            this.MenuLevel1.Size = new System.Drawing.Size(152, 22);
+            this.MenuLevel1.Size = new System.Drawing.Size(110, 22);
             this.MenuLevel1.Text = "Level 1";
             this.MenuLevel1.Click += new System.EventHandler(this.MenuLevel1_Click);
             // 

@@ -11,9 +11,7 @@
         <EntityTypeShape EntityType="mainModel.competence" Width="1.5" PointX="6.125" PointY="6.875" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.Dons" Width="1.5" PointX="4.375" PointY="7.375" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.histo_charac" Width="1.5" PointX="8" PointY="3.75" IsExpanded="false" />
-        <EntityTypeShape EntityType="mainModel.Joueur" Width="1.5" PointX="0.5" PointY="4.375" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.joueur_actu_" Width="1.5" PointX="9.75" PointY="5" IsExpanded="false" />
-        <EntityTypeShape EntityType="mainModel.joueur_cout" Width="1.5" PointX="4.375" PointY="5.75" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.joueur_depense" Width="1.5" PointX="6.25" PointY="5" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.joueur_temp_" Width="1.5" PointX="8" PointY="5" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.Level" Width="1.5" PointX="2.375" PointY="4.5" IsExpanded="false" />
@@ -24,6 +22,8 @@
         <EntityTypeShape EntityType="mainModel.temp_charac" Width="1.5" PointX="8" PointY="4.375" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.classe_bonus" Width="1.5" PointX="4.375" PointY="2.875" IsExpanded="false" />
         <EntityTypeShape EntityType="mainModel.joueur_bonus" Width="1.5" PointX="4.375" PointY="3.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="mainModel.joueur_cout" Width="1.5" PointX="4.375" PointY="5.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="mainModel.Joueur" Width="1.5" PointX="0.5" PointY="4.5" IsExpanded="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

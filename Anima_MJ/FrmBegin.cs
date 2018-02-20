@@ -21,7 +21,9 @@ namespace Anima_MJ
         {
             Outils.Perso perso = new Outils.Perso
             {
-                Id = 5
+                Id = 1,
+                Classe = "Paladin"
+                
             };
             FrmNewMenu test = new FrmNewMenu(perso);
             test.Show();

@@ -281,7 +281,7 @@ namespace Anima_MJ
         public class Perso
         {
             
-            private int id = 1;
+            private long id = 1;
             private string joueur;
             private string nom;
             private string prnom;
@@ -331,7 +331,7 @@ namespace Anima_MJ
             public int Apparence { get => apparence; set => apparence = value; }
             public int Xp { get => xp; set => xp = value; }
             public int Hauteur { get => hauteur; set => hauteur = value; }
-            public int Id { get => id; set => id = value; }
+            public long Id { get => id; set => id = value; }
             public int Pf { get => pf; set => pf = value; }
         }
     }
